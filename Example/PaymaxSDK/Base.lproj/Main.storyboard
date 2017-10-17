@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bkF-tG-vXY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="rMh-8a-xhl">
+            <objects>
+                <navigationController id="bkF-tG-vXY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5cT-oa-Wsa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CUW-Hv-pZu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0u-gf-Z4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1400" y="350"/>
+        </scene>
+        <!--PaymaxDemo-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LklViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg4-M3-qkA">
+                                <rect key="frame" x="20" y="108" width="335" height="60"/>
+                                <color key="backgroundColor" red="0.31764705882352939" green="0.55294117647058827" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Eaf-tk-5XO"/>
+                                </constraints>
+                                <state key="normal" title="支付宝支付">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="alipayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqa-3G-GJq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9W-V0-z4q">
+                                <rect key="frame" x="20" y="188" width="335" height="60"/>
+                                <color key="backgroundColor" red="0.31764705879999999" green="0.55294117649999996" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="IRk-z5-v7H"/>
+                                </constraints>
+                                <state key="normal" title="微信支付">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="wxpayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bdh-bz-bmI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6c7-c6-C4z">
+                                <rect key="frame" x="20" y="268" width="335" height="60"/>
+                                <color key="backgroundColor" red="0.31764705879999999" green="0.55294117649999996" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="kaQ-Id-pLa"/>
+                                </constraints>
+                                <state key="normal" title="拉卡拉支付">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="lklpayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFB-ow-vfm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bg4-M3-qkA" secondAttribute="trailing" constant="20" id="63k-Ia-See"/>
+                            <constraint firstAttribute="trailing" secondItem="6c7-c6-C4z" secondAttribute="trailing" constant="20" id="6UB-ix-Yxe"/>
+                            <constraint firstItem="bg4-M3-qkA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="75i-WP-sGv"/>
+                            <constraint firstItem="6c7-c6-C4z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Cxj-ny-qua"/>
+                            <constraint firstItem="S9W-V0-z4q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="HMn-HY-It7"/>
+                            <constraint firstAttribute="trailing" secondItem="S9W-V0-z4q" secondAttribute="trailing" constant="20" id="ZVv-Kn-tSX"/>
+                            <constraint firstItem="6c7-c6-C4z" firstAttribute="top" secondItem="S9W-V0-z4q" secondAttribute="bottom" constant="20" id="l1l-7I-1se"/>
+                            <constraint firstItem="S9W-V0-z4q" firstAttribute="top" secondItem="bg4-M3-qkA" secondAttribute="bottom" constant="20" id="new-et-Q0i"/>
+                            <constraint firstItem="bg4-M3-qkA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="sn5-GB-Jnc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="PaymaxDemo" id="WkK-ob-eOE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-686" y="349"/>
+        </scene>
+    </scenes>
+</document>

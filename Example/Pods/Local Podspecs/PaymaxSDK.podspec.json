@@ -1,0 +1,23 @@
+{
+  "name": "PaymaxSDK",
+  "version": "0.1.0",
+  "summary": "A short description of PaymaxSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/coderbook/PaymaxSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "coderbook": "coderbook@126.com"
+  },
+  "source": {
+    "git": "https://github.com/coderbook/PaymaxSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PaymaxSDK/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
+}

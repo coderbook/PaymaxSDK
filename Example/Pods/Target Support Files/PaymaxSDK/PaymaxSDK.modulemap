@@ -1,0 +1,6 @@
+framework module PaymaxSDK {
+  umbrella header "PaymaxSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

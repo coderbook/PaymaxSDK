@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PaymaxSDK_Example' do
+  pod 'PaymaxSDK', :path => '../'
+
+  target 'PaymaxSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

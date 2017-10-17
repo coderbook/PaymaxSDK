@@ -1,0 +1,16 @@
+PODS:
+  - PaymaxSDK (0.1.0)
+
+DEPENDENCIES:
+  - PaymaxSDK (from `../`)
+
+EXTERNAL SOURCES:
+  PaymaxSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PaymaxSDK: e9b93cdc55429573dc3385673b1d7eadb1dbdaba
+
+PODFILE CHECKSUM: 8dc5ab3d3c55fe6b00c053f24a0b08a553cc88eb
+
+COCOAPODS: 1.3.1
