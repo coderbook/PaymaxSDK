@@ -6,8 +6,8 @@
 //  Copyright (c) 2017 coderbook. All rights reserved.
 //
 
-//#import <PaymaxSDK>
-//#import <PaymaxSDK/WXApi.h>
+#import <PaymaxSDK/PaymaxSDK.h>
+#import <PaymaxSDK/WXApi.h>
 #import "LklViewController.h"
 
 @interface LklViewController ()<UIAlertViewDelegate> {
@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [PaymaxSDK currentSDKVersion];
+    [PaymaxSDK currentSDKVersion];
 }
 
 - (IBAction)alipayAction:(id)sender {
@@ -51,7 +51,7 @@
                                     @"totalPrice"  : @"0.01",
                                     @"title"       : @"subject",
                                     @"body"        : @"test",
-                                    @"extra"       : @{@"user_id":@"88888812s2ss918"},
+                                    @"extra"       : @{@"user_id":@"88888s812s2ss918"},
                                     @"time_expire" : [self time_expire]};
     //获取订单数据
     NSData *_response = [self dataTaskWithURLStr:_urlString HTTPMethod:@"POST" parameterDic:_parameterDic];
@@ -64,13 +64,13 @@
             /**
              使用解析后的订单数据调取PaymaxSDK
              */
-//            [PaymaxSDK pay:_charge appScheme:@"wx5269eef08886e3d5" viewController:self completion:^(PaymaxResult *result) {
-//                if (result.backStr == nil) {
-//                    [self showAlertMessage:[NSString stringWithFormat:@"%lu",(unsigned long)result.type]];
-//                }else {
-//                    [self showAlertMessage:result.backStr];
-//                }
-//            }];
+            [PaymaxSDK pay:_charge appScheme:@"wx5269eef08886e3d5" viewController:self completion:^(PaymaxResult *result) {
+                if (result.backStr == nil) {
+                    [self showAlertMessage:[NSString stringWithFormat:@"%lu",(unsigned long)result.type]];
+                }else {
+                    [self showAlertMessage:result.backStr];
+                }
+            }];
         }else {
             NSLog(@"服务器返回json数据失败");
         }

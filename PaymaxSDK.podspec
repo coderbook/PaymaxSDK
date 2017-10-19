@@ -25,34 +25,42 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'coderbook' => 'coderbook@126.com' }
-  s.source           = { :git => 'https://github.com/coderbook/PaymaxSDK.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/coderbook/PaymaxSDK.git', :commit => "bd66edb67c6328bfff8d42ada09e1500b6cea447" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-#s.source_files = 'PaymaxSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PaymaxSDK' => ['PaymaxSDK/Assets/*.png']
-  # }
+s.source_files='PaymaxSDK/**/*.h'
+s.header_dir='PaymaxSDK'
 
-  s.public_header_files = 'Pod/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-s.vendored_libraries='PaymaxSDK/libPaymaxSDK.a'
-s.subspec 'WeChat' do |wechat|
-    wechat.vendored_libraries='PaymaxSDK/Paymax+wx/libPaymaxWx.a','PaymaxSDK/Paymax+wx/WX/*.a'
+s.default_subspec='Paymax','Wechat','Alipay','LklPay'
+
+s.subspec 'Paymax' do |pm|
+pm.vendored_libraries='PaymaxSDK/libPaymaxSDK.a'
+pm.frameworks='CoreMotion','AssetsLibrary','CoreTelephony','Security','SystemConfiguration','CFNetwork'
+pm.libraries='sqlite3','z','c++'
 end
-s.subspec 'Ali' do |ali|
-    ali.resources='PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.bundle'
-    ali.vendored_frameworks='PaymaxSDK/Paymax+alipay/libPaymaxAli.a','PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.framework'
+
+s.subspec 'Wechat' do |wx|
+
+wx.vendored_libraries='PaymaxSDK/Paymax+wx/libPaymaxWx.a','PaymaxSDK/Paymax+wx/WX/libWeChatSDK.a'
+wx.dependency 'PaymaxSDK/Paymax'
 
 end
-s.subspec 'Lkl' do |lkl|
-lkl.vendored_libraries='PaymaxSDK/Paymax+lkl/libPaymaxLkl.a','PaymaxSDK/Paymax+lkl/lkl/*.a'
-lkl.resource_bundles={
-    'lkl'=>['PaymaxSDK/Paymax+lkl/lkl/lklimages/*.png']
-}
+
+s.subspec 'Alipay' do |ali|
+ali.vendored_libraries='PaymaxSDK/Paymax+alipay/libPaymaxAli.a'
+ali.vendored_frameworks='PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.framework'
+ali.resource='PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.bundle'
+ali.dependency 'PaymaxSDK/Paymax'
+
 end
+s.subspec 'LklPay' do |lkl|
+lkl.resource_bundle={'lklImage'=>'PaymaxSDK/Paymax+lkl/lkl/lklimages/*.png'}
+lkl.vendored_libraries='PaymaxSDK/Paymax+lkl/libPaymaxLkl.a','PaymaxSDK/Paymax+lkl/lkl/libLKLPaySDK.a'
+lkl.dependency 'PaymaxSDK/Paymax'
+
+end
+
 
 end

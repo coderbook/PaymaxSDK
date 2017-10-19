@@ -13,11 +13,74 @@
   },
   "source": {
     "git": "https://github.com/coderbook/PaymaxSDK.git",
-    "tag": "0.1.0"
+    "commit": "bd66edb67c6328bfff8d42ada09e1500b6cea447"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PaymaxSDK/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "source_files": "PaymaxSDK/**/*.h",
+  "header_dir": "PaymaxSDK",
+  "default_subspecs": [
+    "Paymax",
+    "Wechat",
+    "Alipay",
+    "LklPay"
+  ],
+  "subspecs": [
+    {
+      "name": "Paymax",
+      "vendored_libraries": "PaymaxSDK/libPaymaxSDK.a",
+      "frameworks": [
+        "CoreMotion",
+        "AssetsLibrary",
+        "CoreTelephony",
+        "Security",
+        "SystemConfiguration",
+        "CFNetwork"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "Wechat",
+      "vendored_libraries": [
+        "PaymaxSDK/Paymax+wx/libPaymaxWx.a",
+        "PaymaxSDK/Paymax+wx/WX/libWeChatSDK.a"
+      ],
+      "dependencies": {
+        "PaymaxSDK/Paymax": [
+
+        ]
+      }
+    },
+    {
+      "name": "Alipay",
+      "vendored_libraries": "PaymaxSDK/Paymax+alipay/libPaymaxAli.a",
+      "vendored_frameworks": "PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.framework",
+      "resources": "PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.bundle",
+      "dependencies": {
+        "PaymaxSDK/Paymax": [
+
+        ]
+      }
+    },
+    {
+      "name": "LklPay",
+      "resource_bundles": {
+        "lklImage": "PaymaxSDK/Paymax+lkl/lkl/lklimages/*.png"
+      },
+      "vendored_libraries": [
+        "PaymaxSDK/Paymax+lkl/libPaymaxLkl.a",
+        "PaymaxSDK/Paymax+lkl/lkl/libLKLPaySDK.a"
+      ],
+      "dependencies": {
+        "PaymaxSDK/Paymax": [
+
+        ]
+      }
+    }
+  ]
 }

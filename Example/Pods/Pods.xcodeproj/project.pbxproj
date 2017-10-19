@@ -7,47 +7,340 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0421D733DFF9B35C5541578C12FA8F9A /* Button_理财推荐_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31706696FA129723AF3B95C77D09D101 /* Button_理财推荐_Circle@3x.png */; };
+		0427D8ED34FAD3C31CCA1188C6AC8895 /* Button_帮付宝_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 461657E910CDEB7AAB73DE44A21CEE29 /* Button_帮付宝_solid@2x.png */; };
+		0438723B99ADC9DDC6DA8CE69D0C0EEA /* Button_输入支付密码_确认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 756C8747FB853C90C97A3D215B492572 /* Button_输入支付密码_确认@2x.png */; };
+		04EA32A9EFBDB539B0D4396215DECC12 /* Button_充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFFDDD63F9AB6B364C17E3E4ABF7337 /* Button_充值_Circle@2x.png */; };
+		05EEF6CA6C02E8BC32FA5211188191E2 /* mrlogo_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D8F14E2C9A208F5B1B0B5F1A659A2C /* mrlogo_btn@2x.png */; };
+		088F5BAC5607E4EE82128D46C7C9F213 /* Button_提现_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F385D52C3C16A26A293F1B7290A779 /* Button_提现_line@2x.png */; };
+		08FC07DE82A9F30260318EC9422CFBEB /* tc_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED245D2575D8F4E0DDE9239C47C5500B /* tc_btn@2x.png */; };
+		09B21B8B2AF38F4738ABA3CE11D860D7 /* qbye_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 689655AA15DA610654ACD515A843F25C /* qbye_btn@3x.png */; };
+		0A48AF3EF4BE9BE11872E211E925E937 /* Button_密码_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29723DA90D355483DDAF6E7D99CB97AC /* Button_密码_line_32px@2x.png */; };
+		0CF8EB257C39227CFA67C65EC7FA531C /* Button_卡_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F09C72410FBB573C9FC01C7C8FCA64 /* Button_卡_line_32px@2x.png */; };
+		0E0F81D137A48629A9C262821DE21936 /* Bar_首页底部导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E228AEB44C818DF8242B13E08B5403 /* Bar_首页底部导航条.png */; };
+		0EB464AD179A224A5FA2CD76383EF110 /* Button_确认_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB8B5D8272C5B2FD5F79B8843BD0880 /* Button_确认_line@2x.png */; };
+		0FEB634095170A20653A68C8304D4868 /* Button_手机充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4128CE05E6DD36536039B75D299063 /* Button_手机充值_Circle@2x.png */; };
+		114D479A37F7522C8EA47F84AC3D9ED5 /* jt_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FB93C94004010B428B04C6422FC35D /* jt_btn@3x.png */; };
+		12B9AE092AE9A6985DA5315D39233E7E /* Button_设置_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F6BFBAF599CB818E9FE7A65C2CB98D /* Button_设置_solid@2x.png */; };
+		160EF2C4102146082A42A1929B097A10 /* 支付失败@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E1B3A860149AC8369EE859D5009C51 /* 支付失败@3x.png */; };
+		16191DFEE795C6F89A605C165B9FE02A /* 支付成功@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1707B393D6A62FF6F72D8B41EF1C6A /* 支付成功@3x.png */; };
+		191CE3E2BCB34302881F4C42261CF395 /* 对勾@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193643CDC071C40F4F4878176A67CF0 /* 对勾@2x.png */; };
+		19399CA91B55B78251399E9EA4B77209 /* Button_管家_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A6E0CB7B79CC6CC39453E861C0F22A /* Button_管家_solid@2x.png */; };
+		19857EB99C8CCD83CFBF7B146FE8ACBA /* jt_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A884913503E16D3A7EAC71897312CB /* jt_btn@2x.png */; };
+		1D38B3EBE242501759850F3088D0C57A /* Button_手机充值_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB15BB1D51B3249188B723276E7EBF3 /* Button_手机充值_Circle@3x.png */; };
+		1D51ABD10DC5506E36873FD3D86D663C /* Button_充值_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A5E43DC48795B75F34E1A582C31E930 /* Button_充值_line@2x.png */; };
+		224763744280CF4A5D8BC862BC111030 /* Bar_首页顶部导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC42519355E8AF2D19025FE4A621EA2 /* Bar_首页顶部导航条.png */; };
+		2E68EBEEF18EB583E5567A185DF925A1 /* nochoice_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA804F00481BF3E0D7E90B840819CB /* nochoice_icon@3x.png */; };
+		2ED583D0932E7CD7840CA2A79587A3FA /* 支付失败@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53692AFE45D469FE362A04892CDF254 /* 支付失败@2x.png */; };
+		318F2AC10E28DB582E85244998F76E74 /* Button_实名_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17BAEE882F86AB4BCD6A2F75BB02A7C /* Button_实名_Circle@2x.png */; };
+		3528C10E7CFFB64EEE70EF68F45CD6CB /* Cover_iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = AE82C853C0CF404703D9FCC5BDA0D831 /* Cover_iPhone5.png */; };
+		37AF0A2022C61BFF5DC7DAE397BD7391 /* tc_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0DADF5750C8F1114E5368F5722CCB7 /* tc_btn@3x.png */; };
+		399497540D91A9AB4D2B8434C7D91CA7 /* Button_设置_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0F33F1581C0D4766DAD01472B40587 /* Button_设置_line@2x.png */; };
 		39C46C9640E64C11678D85018F66C515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		457A9F4E616C8765CF9F6E5726FAD009 /* Pods-PaymaxSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E090CFA7D4F97FD5599670B463560A0 /* Pods-PaymaxSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63CD447A26A603EF6A9FF0C6D6F32659 /* Pods-PaymaxSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2448595E056F97438C30590A2F27F58 /* Pods-PaymaxSDK_Example-dummy.m */; };
+		3E07DB4479190E3E1E3A6CFBDBDF3290 /* lklloadingview_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1683746FECB05B6AC59EBAF211D1990 /* lklloadingview_logo@2x.png */; };
+		42A15BC9BDFB1D0145BCF3195806B2B0 /* choice2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 233BFCF789CB9F1FA8846FFCC9B2164F /* choice2@2x.png */; };
+		434B1A755620C62B7CEA4B9FEBB1E0F3 /* Button_重发按钮_220px.png in Resources */ = {isa = PBXBuildFile; fileRef = 72DD0DB7AB42A459270AF8A292B8EC11 /* Button_重发按钮_220px.png */; };
+		43DBB2CB452C23BD0F14EAF2896B0782 /* Button_流量充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E49C93BB55F4BD94D317B4030179A163 /* Button_流量充值_Circle@2x.png */; };
+		474D1C8FF94A92B43B31C893A5E0F331 /* Button_通讯录_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 730E0F8820B07052427E006E71BA5B09 /* Button_通讯录_line@2x.png */; };
+		4881DB1A2BBD6A72D84E8E40DE765157 /* 叹号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3610D7A57FD8DF22682623EB3D9ED207 /* 叹号@3x.png */; };
+		4DF2696D815BA58D36F257AD31651545 /* Button_收付款扫码_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C7D8441D576CDDF62A67C97A2F457 /* Button_收付款扫码_Circle@3x.png */; };
+		508692D3A49725B7BCD02894C83637EB /* Button_确认框580px.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFE7C6EF1066875B9C706DC30D8B1C9 /* Button_确认框580px.png */; };
+		5178BA4858007C22BDB6B73BF6C47EE8 /* 点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450AC0B755FDB104582A0AA26FF46D2F /* 点击@3x.png */; };
+		52A7E780FCCA1E9A3AA4BC01E86C4BDD /* Button_扫码登陆_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E61701FBD77CD0D7DAEC03082828A1BB /* Button_扫码登陆_Circle@3x.png */; };
+		570537D5298C540A845AA29D522D92AF /* Button_扫码支付_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752D346620ED33308B3742D1BC7A6473 /* Button_扫码支付_Circle@2x.png */; };
+		57EDE7E9D3855DA012B5A35B2A9A06E2 /* Button_输入框两栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173B89BE4F50E7CF7A93770130B18F /* Button_输入框两栏580px.png */; };
+		59195FFD67A008317DD3D952ED7FA8A5 /* Button_转账_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA18F586E01108F0C12303F7E141018 /* Button_转账_line_white@2x.png */; };
+		59A4D6D4F60EECAECF45C14C8325870B /* Button_重发按钮_等待220px.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFBAF002A62313C47C14DC4D3F1816B /* Button_重发按钮_等待220px.png */; };
+		5A7B3E22C9ABE240DF1C6B577985C510 /* Image_空页面.png in Resources */ = {isa = PBXBuildFile; fileRef = 460874D4697369F55048C3B2C9C5ECFF /* Image_空页面.png */; };
+		5AE4193B909AE54308005E44C7F1E855 /* Image_帮付宝首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D48D0912261D4A47D71D12C3E23027 /* Image_帮付宝首页.png */; };
+		5B2D33A941C00D0742259234B9193C3F /* 对勾@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D1694A6EA3C21C865DEEA366FC9AA3 /* 对勾@3x.png */; };
+		5B522B2D9C80D8239F9FB833AE0E6DFE /* 未选@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F71EB787510C78C7CAE87B4748F14F6 /* 未选@3x.png */; };
+		5DD1DD16B21EEDEFDBE48E9EE970DE6D /* Image_Cover字.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB68C70C379F2BC339F095F092A7B11 /* Image_Cover字.png */; };
+		5FB930FA76116B21CC3344B906E1CCED /* 点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB2F2532CD096787C5586893D402770 /* 点击@2x.png */; };
+		60873720A8FF5AECD4445573D73CA879 /* Bar_导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A494312943A657F4CC0D58BB7CFFD8 /* Bar_导航条.png */; };
+		632EE030333D1F8D9EDED8EA423350AE /* qbye_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5B00D76AFEA4A909047C8B5D327A8A /* qbye_btn@2x.png */; };
+		66593950A989BFF9440AFD688F47C7F8 /* Button_头像_110px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81EAA53A5438A3D8030361F0B4D6E7B /* Button_头像_110px@2x.png */; };
+		6A37329E3994601D9C65498A697ED87C /* Layer_银行卡类型580px.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC8129B63F991BEE658C53BB28B0738 /* Layer_银行卡类型580px.png */; };
+		712D032F0A2B9A1AC7814C77429EEF4B /* Bar_首页顶部导航条_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ABBC04D000ACE827BB4BCB2D112B821 /* Bar_首页顶部导航条_选中.png */; };
+		71F6637B5348802220FDE1AC60972C30 /* Button_头像_80px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B16F846160E12087263A1EAF4D49EB3 /* Button_头像_80px@2x.png */; };
+		73F32354B7C2BB713A625E039952D7ED /* choice_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE576B50D2DB60504A3B6EF6D541FDE4 /* choice_icon@2x.png */; };
+		74C1877500820512608FAB53C0284511 /* Button_银行卡_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FB219BAD61DAE1CA570CF9BA457D521 /* Button_银行卡_line@2x.png */; };
+		74C2721C0DC7C46848976EC8D8FE493F /* Button_关于_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF55C320140B3A41848E84DD2CEB62 /* Button_关于_line_32px@2x.png */; };
+		75B485DDC9D8DA1DA7B0E9D08251034E /* 返回剪头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDE1A33F9F1FD7B1D5F9D545D8DCE29 /* 返回剪头@3x.png */; };
+		79C7ABCFFAF2D00E530D002616CAAD99 /* Button_输入框330px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ABA21B2052DFA0BDCAE91D9F361680C /* Button_输入框330px.png */; };
+		7F16D8AFED7A14C3A658E67ECF99C1B5 /* button_jb_line_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E3323FB2C41A12719C60A1E4495046 /* button_jb_line_s@2x.png */; };
+		827626391B1B0E2534518651DD23EEE6 /* mrlogo_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AB3B4157F67556ACE28F7DE0157A50 /* mrlogo_btn@3x.png */; };
+		83E801CC1AFE5F3569C9D4AFFE57D24F /* Button_输入框四栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 149384A1F1FEEB8D6F473763D3325398 /* Button_输入框四栏580px.png */; };
+		84D580099AE26B6AF4C89D7C48E34ABB /* Button_流量充值_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02793ABDD6D80825FCCC08C3DEC60C5F /* Button_流量充值_Circle@3x.png */; };
+		8736C0AEEADFBDB26738C7E97A473A3A /* Button_充值_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A9F30A8A216E47E9882F1A26018A2D /* Button_充值_solid@2x.png */; };
+		898D62DF02163EFE0D2616F97EB03C2B /* 未选@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 977B28C41058A6904A662F32BD590D76 /* 未选@2x.png */; };
+		8A197D8898794548FA1AD854D50A5D27 /* Button_账单_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7459BD5B49EC858EBA4CFA260A76BB /* Button_账单_line@2x.png */; };
+		8A64F30027C217C8AB9E742D5E638912 /* unchoice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5250EB87BA101F82E3AFDFF04DA6AF /* unchoice@3x.png */; };
+		8AED03EAB098D41F873B17BF75F8B34B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8D6DB00E01996B23FDC316A4544BDA89 /* Button_待办_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC15388C81083EF0C69BFD5EE1692CF /* Button_待办_solid@2x.png */; };
+		90AB7C2569F1EC49D7935D8553127969 /* 箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 076AD4954E8ACE8FF93E7734DD173806 /* 箭头@2x.png */; };
+		99AC0281FD5C93BF10E1E22423C797C8 /* Button_提现_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56769A7D260AF2758DDE711DB6C985BF /* Button_提现_line_white@2x.png */; };
+		9A7D353F92BA2A5D4D526376A157DFCB /* tck_qx_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0100A9A223B7D808405420F00ED24150 /* tck_qx_icon@2x.png */; };
+		9B9A53B3E8816CB16C7FCBFD86821495 /* Pods-PaymaxSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E090CFA7D4F97FD5599670B463560A0 /* Pods-PaymaxSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C33906D64DF359878BEB2DA0148A8A7 /* choice_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F8744616FA465AE894AF3742E3EBD7 /* choice_icon@3x.png */; };
+		9D35D6D75341F03C7243C66F14615338 /* Button_待办_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F3DDA7A7CE2900BE71253A99C05E0 /* Button_待办_Circle@2x.png */; };
+		9EB27A846952628D0B9285F0B2D07206 /* Button_充值_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6E05C74C888556255E9B3391FBBA31 /* Button_充值_line_white@2x.png */; };
+		9FEE0D12D2DA0727B8068DA81AD1250A /* Button_银行卡_Solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D365B031903BC90BD6AF8371A4A038A /* Button_银行卡_Solid@2x.png */; };
+		A053BE7263FBEA3B3EC07C829B7304E7 /* Button_添加银行卡.png in Resources */ = {isa = PBXBuildFile; fileRef = F74D760BCE8FE993C3184415B7D1EB46 /* Button_添加银行卡.png */; };
+		A25B1C86A84B6A30706F9BD3628991EA /* nochoice_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D1FAB3C00BEEBEDABD1400C2A573BB /* nochoice_icon@2x.png */; };
+		A2BF4BFB8B66709CC4943206F7FBA8A5 /* Button_输入框三栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = F88784711311AA6F0ED25B206333C36A /* Button_输入框三栏580px.png */; };
+		A2EC64144830F7878897F6EE4E3A2301 /* lklloadingview_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A90663EA7EE3BCF19C1805DDD059685D /* lklloadingview_circle@3x.png */; };
+		A3BA417FDF4E1B8CFAF6B5AE8B43F4B9 /* tck_yeqb_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABAD1BF19E0426535B5AD97E4C147750 /* tck_yeqb_icon@2x.png */; };
+		A6199343C51816BBA91BB67C44A7B29F /* Button_转账_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E6C8DCC667B9E7F8C518B0FDFF88E0 /* Button_转账_line@2x.png */; };
+		A73B5A59E43090A39D8C28ECBDC7BFC3 /* Button_消费_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C83D87F223424556D4D5C2635A172370 /* Button_消费_line@2x.png */; };
+		A8BC482152163BB19E966A1019205777 /* Layer_修改密码成功580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 748A88B1AE6602D7C8148DC5BA904DA8 /* Layer_修改密码成功580px.png */; };
+		AB28717A8B0D03E3405B1CCBE80BC689 /* Bar_导航条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CF9B84B4D21CA7212D01A9165E48A8 /* Bar_导航条@2x.png */; };
+		AD9CCB2885F3C5A9FAD81FD926C67501 /* 箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA3BB4EF930CC093A3708D545CEBD9 /* 箭头@3x.png */; };
+		AE514B02D96AE7154B6DF712243F3EBB /* tjyhk_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7872D6958D273323E4CFF174DF611EB7 /* tjyhk_icon@2x.png */; };
+		B021424683EC6209A3533CAFBEAFCACC /* Button_80px.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8ED74B644A8726F5F919C5DCEF8937 /* Button_80px.png */; };
+		B2580E34B9A68F6336685F8E52C6E407 /* Button_添加银行卡+.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEEB3F98D5397B349DA95820518B1B /* Button_添加银行卡+.png */; };
+		B36BBA20576796154D5541589F3C40B5 /* Button_删除_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ECDAED39FBE7CF5CDAD4677ED7C61D /* Button_删除_line_32px@2x.png */; };
+		B9CAC3BCAE653ED47C3D0AEAFD2AC685 /* Button_待办_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB224F5F72165B3D7930B6475823915 /* Button_待办_line@2x.png */; };
+		BA893130C1794D43354FC228D5C5191D /* Button_理财推荐_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F3FCDCB2629CB4D90E724600371894 /* Button_理财推荐_Circle@2x.png */; };
 		BB171F245A77493CEF4FFF638AAC2B43 /* Pods-PaymaxSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1858C35991273ED2BCD736A09663E8EC /* Pods-PaymaxSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D708A95A67CF76306CB9BFCEBCD50313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BB880746BE3BE2EEF83ED43A12081BB9 /* Button_转账_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0365EA6488A4032B96A7A49F66C4D393 /* Button_转账_Circle@2x.png */; };
+		BC29F937C27BC26F80B1B0DC42143CB3 /* Button_管家_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5E037C25D429B6C450BE38F1061EE7 /* Button_管家_line@2x.png */; };
+		BF76AB874374F04FBDD078633B4FCD38 /* choice2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EECC16C039CF4D39D2D2C3A86A5008 /* choice2@3x.png */; };
+		C1367329E378F0B1F96BC8D918CF300D /* Button_手机_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F7BF4B03115F275A0A2A891BEE307C /* Button_手机_line_32px@2x.png */; };
+		C136FBF60693E91751284626CF72A16E /* lklloadingview_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B29BF029BDA1C40DE3799793EEA53E1C /* lklloadingview_logo@3x.png */; };
+		C3FEE414CC489C8CE1DD892A3CBAA697 /* lklloadingview_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70BEB3CF7429407724F7A089746BEA4 /* lklloadingview_circle@2x.png */; };
+		C4FE65FE21FD4A2B6AFCF0EE4FA9EF16 /* Button_输入框580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D9539B47A9034E9CC34BFBD32B05E0 /* Button_输入框580px.png */; };
+		C587A2B9EA18ED74D16413CF1FBEEABD /* Button_收付款扫码_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E984F4BBF878E7C0FF085C4D2A079D33 /* Button_收付款扫码_Circle@2x.png */; };
+		CED63DBB5BDB9B71F84090C3353D6361 /* 未点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430FEE66C3C9B4414373B82B88873E66 /* 未点击@2x.png */; };
+		D2CA4FD3B575AD6D53EEDBD017F4D2D3 /* Button_提现_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F02E62FD257408556D960A5E2E55D9 /* Button_提现_Circle@2x.png */; };
+		D4AC759179DC50DC5F779BCFED2766C2 /* Button_转账_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EC87CDA1BB1EB8B67CC0B5CE96589B /* Button_转账_solid@2x.png */; };
+		D6C20D36EE93534D829DF9B2D7160584 /* unchoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2792ECB0123D30D7C94F72AA801AD2E0 /* unchoice@2x.png */; };
+		D86ABC92042CC2197586623A94B3E678 /* button_jb_line_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CB77178CE7C2432F48BF6C48392B19 /* button_jb_line_s@3x.png */; };
+		D8C9AAC01F851ECD0F5981335AE4AE2B /* Button_账户_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 100AD94C2905E0D063983C082DE1B20A /* Button_账户_line_32px@2x.png */; };
+		DA9B203AA3673C435909EDD963A8F711 /* Button_提现_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 880A1C82C36E9B5AD7C64DE7C8326F47 /* Button_提现_solid@2x.png */; };
+		DAC175BF1113A1A84326A8D75CFFB7C1 /* Button_箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CF9B1CD7630270121A9554587A1013 /* Button_箭头@2x.png */; };
+		DBB0C802653D69A2D2542C52C7426C41 /* Button_帮付宝_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E85678BF0F9ED75E795A74F392CFE02 /* Button_帮付宝_line@2x.png */; };
+		DCC120CC6CB314714FF32D4B810644F1 /* tck_qx_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AD21DC2B2DEACAA673B96074A69029 /* tck_qx_icon@3x.png */; };
+		DE30AA353E6CEE2D2656201E90F69EFE /* Button_输入支付密码_取消@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B8F76B59223730BD9B73141A6C33D4 /* Button_输入支付密码_取消@2x.png */; };
 		DF434F442640925CDF1BDD8B10BAA611 /* Pods-PaymaxSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C859FE51E8BAB8264C10F4DF7E94F3C8 /* Pods-PaymaxSDK_Tests-dummy.m */; };
+		E03FFB67D58F2580BB502CD9C667C719 /* Image_管家首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FD89757F4040839C249FB384EA999A /* Image_管家首页.png */; };
+		E228F699876C7D2E55ABA54B616A422F /* tck_yeqb_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B83D97D264B458306431249A57A100E5 /* tck_yeqb_icon@3x.png */; };
+		E3057FF2C68C7A31741D9EFC5E8D73C0 /* 支付成功@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32035CECDB483641200D724A11C3624D /* 支付成功@2x.png */; };
+		E4E8D3684DB9FB72102AC3420B9C83A8 /* Bar_导航条@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A651D272070650BD9AE0A2E10E4F14 /* Bar_导航条@3x.png */; };
+		E571D31A3CFC18D55F4CA55108B8852A /* 未点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91B5F7362C3FBEB2A77E15D6A7CD15 /* 未点击@3x.png */; };
+		E896FEAA00B1FD29A05680A12641379D /* Button_信用卡还款_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4947177FC892ACEDB7D67C0862D8D23 /* Button_信用卡还款_Circle@3x.png */; };
+		E9BBA6A3B269DED5CBB979FC63CDECB4 /* Button_信用卡还款_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 859F066D767D2D4115128E2DAB1DE468 /* Button_信用卡还款_Circle@2x.png */; };
+		EC36DC3B69CF912AED42AE20DA93D01A /* Image_账单详情半圆_左.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA030084EF3C9DE513E7720F68200DD /* Image_账单详情半圆_左.png */; };
+		EC96140B3DD028FD30C43A2AB79350A3 /* 返回剪头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 434F271E29E2B70589212337FBEE80D7 /* 返回剪头@2x.png */; };
+		ECD3CDEC227063D1E7204D54B0AF8C69 /* Button_消费_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686A759CF74D3C02FEDF779E10A5D499 /* Button_消费_solid@2x.png */; };
+		ED3CF7B2132A21868C070CD8198BFDE7 /* Button_交易状态.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F7BA85B65EFE602E9ECE9FE022D5A6 /* Button_交易状态.png */; };
+		F1AD436616A8672F10F7E775A2732EC4 /* Button_账单_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E43D8443655C4055E3BBAF1A39119 /* Button_账单_solid@2x.png */; };
+		F5D9DAB3CD798DF06574687A5710F5AB /* Image_账单详情半圆_右.png in Resources */ = {isa = PBXBuildFile; fileRef = 31591C4B87B942963CA867AA29186D73 /* Image_账单详情半圆_右.png */; };
+		F845F5463741347AB60FFEEB45B448EF /* 叹号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E61A84555B065EB21FE5E57A9391EB9B /* 叹号@2x.png */; };
+		F85A898467615325BBE86F383B6D1903 /* Layer_输入支付密码580px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7489A1B9FE46E4C9549F2FF392C28426 /* Layer_输入支付密码580px@2x.png */; };
+		FA76CF2ECC9AC632ECD6F1D72476911F /* Pods-PaymaxSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2448595E056F97438C30590A2F27F58 /* Pods-PaymaxSDK_Example-dummy.m */; };
+		FBD3BDD3527C03F983BCC10823814BA0 /* Button_扫码支付_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F607CFC13E3E33CBCBC991D6242923FB /* Button_扫码支付_Circle@3x.png */; };
+		FC000F499BC7F08B175AD8CD7A036C84 /* Button_返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B990A2754758A0C90A93C282BFE6C6 /* Button_返回@2x.png */; };
+		FC23F487FA79BFE22EE41B7DC2191D3D /* Button_扫码登陆_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23BF67DE329674C6994B320B7B5AE7F3 /* Button_扫码登陆_Circle@2x.png */; };
+		FFAF6E2668A6627F212F32C7AE375183 /* tjyhk_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8765CF84220DD9EEB2F55E3D6E6AD89D /* tjyhk_icon@3x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		07D8F46E3B3F7E93BFB59CF28D9D63C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77DF8578E82F11EA19B663D6ADBA117;
+			remoteInfo = "PaymaxSDK-lklImage";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0100A9A223B7D808405420F00ED24150 /* tck_qx_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tck_qx_icon@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tck_qx_icon@2x.png"; sourceTree = "<group>"; };
+		02793ABDD6D80825FCCC08C3DEC60C5F /* Button_流量充值_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_流量充值_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_流量充值_Circle@3x.png"; sourceTree = "<group>"; };
+		0365EA6488A4032B96A7A49F66C4D393 /* Button_转账_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_转账_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_转账_Circle@2x.png"; sourceTree = "<group>"; };
+		05D9539B47A9034E9CC34BFBD32B05E0 /* Button_输入框580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入框580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入框580px.png"; sourceTree = "<group>"; };
+		076AD4954E8ACE8FF93E7734DD173806 /* 箭头@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "箭头@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/箭头@2x.png"; sourceTree = "<group>"; };
+		09AD21DC2B2DEACAA673B96074A69029 /* tck_qx_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tck_qx_icon@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tck_qx_icon@3x.png"; sourceTree = "<group>"; };
+		0ABA21B2052DFA0BDCAE91D9F361680C /* Button_输入框330px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入框330px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入框330px.png"; sourceTree = "<group>"; };
 		0C2380C720BF77664E43DBD5388C4D9B /* Pods-PaymaxSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymaxSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0D365B031903BC90BD6AF8371A4A038A /* Button_银行卡_Solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_银行卡_Solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_银行卡_Solid@2x.png"; sourceTree = "<group>"; };
+		0F71EB787510C78C7CAE87B4748F14F6 /* 未选@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "未选@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/未选@3x.png"; sourceTree = "<group>"; };
+		100AD94C2905E0D063983C082DE1B20A /* Button_账户_line_32px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_账户_line_32px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_账户_line_32px@2x.png"; sourceTree = "<group>"; };
+		117596371B79A63F796E6FAD0E8F132C /* lklImage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = lklImage.bundle; path = lklImage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D4F04B0CE6F496762AFF725B5C485B /* Pods-PaymaxSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaymaxSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		16FE3B6718698062D2C814B0E572D66F /* Pods_PaymaxSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaymaxSDK_Example.framework; path = "Pods-PaymaxSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		149384A1F1FEEB8D6F473763D3325398 /* Button_输入框四栏580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入框四栏580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入框四栏580px.png"; sourceTree = "<group>"; };
 		174585E2B1EBD0BBA7A0E8836A76057C /* Pods-PaymaxSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymaxSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1858C35991273ED2BCD736A09663E8EC /* Pods-PaymaxSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaymaxSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1A84CA0E4D5C5E4C4E7DEE02D7F7EED4 /* Pods-PaymaxSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymaxSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4128CE05E6DD36536039B75D299063 /* Button_手机充值_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_手机充值_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_手机充值_Circle@2x.png"; sourceTree = "<group>"; };
+		1B5B00D76AFEA4A909047C8B5D327A8A /* qbye_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "qbye_btn@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/qbye_btn@2x.png"; sourceTree = "<group>"; };
+		1EB224F5F72165B3D7930B6475823915 /* Button_待办_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_待办_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_待办_line@2x.png"; sourceTree = "<group>"; };
+		1EB68C70C379F2BC339F095F092A7B11 /* Image_Cover字.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Image_Cover字.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Image_Cover字.png"; sourceTree = "<group>"; };
 		1EF9CB18AD0106AAED580336136DF9FB /* Pods-PaymaxSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaymaxSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20A884913503E16D3A7EAC71897312CB /* jt_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jt_btn@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/jt_btn@2x.png"; sourceTree = "<group>"; };
+		22339A9D58E7CD59B94DEE2963144E8A /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
+		233BFCF789CB9F1FA8846FFCC9B2164F /* choice2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "choice2@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/choice2@2x.png"; sourceTree = "<group>"; };
+		23BF67DE329674C6994B320B7B5AE7F3 /* Button_扫码登陆_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_扫码登陆_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_扫码登陆_Circle@2x.png"; sourceTree = "<group>"; };
 		2645C0858DCE8D76A5DF8065160C5305 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2792ECB0123D30D7C94F72AA801AD2E0 /* unchoice@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "unchoice@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/unchoice@2x.png"; sourceTree = "<group>"; };
+		29723DA90D355483DDAF6E7D99CB97AC /* Button_密码_line_32px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_密码_line_32px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_密码_line_32px@2x.png"; sourceTree = "<group>"; };
+		29EC87CDA1BB1EB8B67CC0B5CE96589B /* Button_转账_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_转账_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_转账_solid@2x.png"; sourceTree = "<group>"; };
+		2BCEEB3F98D5397B349DA95820518B1B /* Button_添加银行卡+.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_添加银行卡+.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_添加银行卡+.png"; sourceTree = "<group>"; };
+		2CA18F586E01108F0C12303F7E141018 /* Button_转账_line_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_转账_line_white@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_转账_line_white@2x.png"; sourceTree = "<group>"; };
 		2E090CFA7D4F97FD5599670B463560A0 /* Pods-PaymaxSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaymaxSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		31591C4B87B942963CA867AA29186D73 /* Image_账单详情半圆_右.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Image_账单详情半圆_右.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Image_账单详情半圆_右.png"; sourceTree = "<group>"; };
+		31706696FA129723AF3B95C77D09D101 /* Button_理财推荐_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_理财推荐_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_理财推荐_Circle@3x.png"; sourceTree = "<group>"; };
+		31B8F76B59223730BD9B73141A6C33D4 /* Button_输入支付密码_取消@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入支付密码_取消@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入支付密码_取消@2x.png"; sourceTree = "<group>"; };
+		32035CECDB483641200D724A11C3624D /* 支付成功@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "支付成功@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/支付成功@2x.png"; sourceTree = "<group>"; };
 		3291C78380D17100F8E2B01680D0E8E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E2817568619202CE9F44D7D68671D68 /* Pods_PaymaxSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaymaxSDK_Tests.framework; path = "Pods-PaymaxSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CF9B1CD7630270121A9554587A1013 /* Button_箭头@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_箭头@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_箭头@2x.png"; sourceTree = "<group>"; };
+		3610D7A57FD8DF22682623EB3D9ED207 /* 叹号@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "叹号@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/叹号@3x.png"; sourceTree = "<group>"; };
+		38B85D58B8CCAE0E31CCFB187477AEED /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = "PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.bundle"; sourceTree = "<group>"; };
+		3A5E43DC48795B75F34E1A582C31E930 /* Button_充值_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_充值_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_充值_line@2x.png"; sourceTree = "<group>"; };
+		3EF4A2ECAB19D4A4F2CF36A2378BE0AE /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3F2C7D8441D576CDDF62A67C97A2F457 /* Button_收付款扫码_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_收付款扫码_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_收付款扫码_Circle@3x.png"; sourceTree = "<group>"; };
+		42F7BF4B03115F275A0A2A891BEE307C /* Button_手机_line_32px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_手机_line_32px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_手机_line_32px@2x.png"; sourceTree = "<group>"; };
+		430FEE66C3C9B4414373B82B88873E66 /* 未点击@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "未点击@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/未点击@2x.png"; sourceTree = "<group>"; };
+		434F271E29E2B70589212337FBEE80D7 /* 返回剪头@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "返回剪头@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/返回剪头@2x.png"; sourceTree = "<group>"; };
+		450AC0B755FDB104582A0AA26FF46D2F /* 点击@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "点击@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/点击@3x.png"; sourceTree = "<group>"; };
+		45D1694A6EA3C21C865DEEA366FC9AA3 /* 对勾@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "对勾@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/对勾@3x.png"; sourceTree = "<group>"; };
+		45F02E62FD257408556D960A5E2E55D9 /* Button_提现_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_提现_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_提现_Circle@2x.png"; sourceTree = "<group>"; };
+		460874D4697369F55048C3B2C9C5ECFF /* Image_空页面.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Image_空页面.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Image_空页面.png"; sourceTree = "<group>"; };
+		461657E910CDEB7AAB73DE44A21CEE29 /* Button_帮付宝_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_帮付宝_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_帮付宝_solid@2x.png"; sourceTree = "<group>"; };
+		4928A392C8619A1D14824248246B8A27 /* libLKLPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLKLPaySDK.a; path = "PaymaxSDK/Paymax+lkl/lkl/libLKLPaySDK.a"; sourceTree = "<group>"; };
 		4B041751641A9DE39BEDBBCD98E10F68 /* Pods-PaymaxSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PaymaxSDK_Example.modulemap"; sourceTree = "<group>"; };
+		4B16F846160E12087263A1EAF4D49EB3 /* Button_头像_80px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_头像_80px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_头像_80px@2x.png"; sourceTree = "<group>"; };
+		4C0F33F1581C0D4766DAD01472B40587 /* Button_设置_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_设置_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_设置_line@2x.png"; sourceTree = "<group>"; };
+		4CB2F2532CD096787C5586893D402770 /* 点击@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "点击@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/点击@2x.png"; sourceTree = "<group>"; };
+		50D48D0912261D4A47D71D12C3E23027 /* Image_帮付宝首页.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Image_帮付宝首页.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Image_帮付宝首页.png"; sourceTree = "<group>"; };
+		51B990A2754758A0C90A93C282BFE6C6 /* Button_返回@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_返回@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_返回@2x.png"; sourceTree = "<group>"; };
+		51D8F14E2C9A208F5B1B0B5F1A659A2C /* mrlogo_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mrlogo_btn@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/mrlogo_btn@2x.png"; sourceTree = "<group>"; };
+		51F09C72410FBB573C9FC01C7C8FCA64 /* Button_卡_line_32px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_卡_line_32px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_卡_line_32px@2x.png"; sourceTree = "<group>"; };
+		53FD89757F4040839C249FB384EA999A /* Image_管家首页.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Image_管家首页.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Image_管家首页.png"; sourceTree = "<group>"; };
+		55F8744616FA465AE894AF3742E3EBD7 /* choice_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "choice_icon@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/choice_icon@3x.png"; sourceTree = "<group>"; };
+		56769A7D260AF2758DDE711DB6C985BF /* Button_提现_line_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_提现_line_white@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_提现_line_white@2x.png"; sourceTree = "<group>"; };
+		5F367B9DCFEFE16B783E728BA4E22BEF /* LKLPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKLPaySDK.h; sourceTree = "<group>"; };
+		5FB219BAD61DAE1CA570CF9BA457D521 /* Button_银行卡_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_银行卡_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_银行卡_line@2x.png"; sourceTree = "<group>"; };
+		61E228AEB44C818DF8242B13E08B5403 /* Bar_首页底部导航条.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bar_首页底部导航条.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Bar_首页底部导航条.png"; sourceTree = "<group>"; };
 		63ADFC2C685DC98BCF9BA22BD23D7E57 /* Pods-PaymaxSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymaxSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64AB3B4157F67556ACE28F7DE0157A50 /* mrlogo_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mrlogo_btn@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/mrlogo_btn@3x.png"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		686A759CF74D3C02FEDF779E10A5D499 /* Button_消费_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_消费_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_消费_solid@2x.png"; sourceTree = "<group>"; };
+		689655AA15DA610654ACD515A843F25C /* qbye_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "qbye_btn@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/qbye_btn@3x.png"; sourceTree = "<group>"; };
 		6B3E7680FB218D7B67D761C84DFE440E /* Pods-PaymaxSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaymaxSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F6E05C74C888556255E9B3391FBBA31 /* Button_充值_line_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_充值_line_white@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_充值_line_white@2x.png"; sourceTree = "<group>"; };
+		6FB15BB1D51B3249188B723276E7EBF3 /* Button_手机充值_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_手机充值_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_手机充值_Circle@3x.png"; sourceTree = "<group>"; };
+		6FC895646915E6162827DCD12762A680 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = "PaymaxSDK/Paymax+wx/WX/libWeChatSDK.a"; sourceTree = "<group>"; };
+		72DD0DB7AB42A459270AF8A292B8EC11 /* Button_重发按钮_220px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_重发按钮_220px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_重发按钮_220px.png"; sourceTree = "<group>"; };
+		72F7BA85B65EFE602E9ECE9FE022D5A6 /* Button_交易状态.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_交易状态.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_交易状态.png"; sourceTree = "<group>"; };
+		730E0F8820B07052427E006E71BA5B09 /* Button_通讯录_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_通讯录_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_通讯录_line@2x.png"; sourceTree = "<group>"; };
+		7489A1B9FE46E4C9549F2FF392C28426 /* Layer_输入支付密码580px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Layer_输入支付密码580px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Layer_输入支付密码580px@2x.png"; sourceTree = "<group>"; };
+		748A88B1AE6602D7C8148DC5BA904DA8 /* Layer_修改密码成功580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Layer_修改密码成功580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Layer_修改密码成功580px.png"; sourceTree = "<group>"; };
+		752D346620ED33308B3742D1BC7A6473 /* Button_扫码支付_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_扫码支付_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_扫码支付_Circle@2x.png"; sourceTree = "<group>"; };
+		756C8747FB853C90C97A3D215B492572 /* Button_输入支付密码_确认@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入支付密码_确认@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入支付密码_确认@2x.png"; sourceTree = "<group>"; };
+		76A651D272070650BD9AE0A2E10E4F14 /* Bar_导航条@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bar_导航条@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Bar_导航条@3x.png"; sourceTree = "<group>"; };
+		76A6E0CB7B79CC6CC39453E861C0F22A /* Button_管家_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_管家_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_管家_solid@2x.png"; sourceTree = "<group>"; };
+		76E6C8DCC667B9E7F8C518B0FDFF88E0 /* Button_转账_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_转账_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_转账_line@2x.png"; sourceTree = "<group>"; };
+		7872D6958D273323E4CFF174DF611EB7 /* tjyhk_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tjyhk_icon@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tjyhk_icon@2x.png"; sourceTree = "<group>"; };
+		7ABBC04D000ACE827BB4BCB2D112B821 /* Bar_首页顶部导航条_选中.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bar_首页顶部导航条_选中.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Bar_首页顶部导航条_选中.png"; sourceTree = "<group>"; };
+		7AFA3BB4EF930CC093A3708D545CEBD9 /* 箭头@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "箭头@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/箭头@3x.png"; sourceTree = "<group>"; };
+		7B7459BD5B49EC858EBA4CFA260A76BB /* Button_账单_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_账单_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_账单_line@2x.png"; sourceTree = "<group>"; };
+		7BA91B638BC7524888A1878BF2ED9B40 /* libPaymaxAli.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymaxAli.a; path = "PaymaxSDK/Paymax+alipay/libPaymaxAli.a"; sourceTree = "<group>"; };
+		7C0BD2FE447C4BBCEFF49E09AEFEBB68 /* libPaymaxLkl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymaxLkl.a; path = "PaymaxSDK/Paymax+lkl/libPaymaxLkl.a"; sourceTree = "<group>"; };
+		7E0DADF5750C8F1114E5368F5722CCB7 /* tc_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tc_btn@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tc_btn@3x.png"; sourceTree = "<group>"; };
+		7E5250EB87BA101F82E3AFDFF04DA6AF /* unchoice@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "unchoice@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/unchoice@3x.png"; sourceTree = "<group>"; };
+		7E5F3DDA7A7CE2900BE71253A99C05E0 /* Button_待办_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_待办_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_待办_Circle@2x.png"; sourceTree = "<group>"; };
+		7E85678BF0F9ED75E795A74F392CFE02 /* Button_帮付宝_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_帮付宝_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_帮付宝_line@2x.png"; sourceTree = "<group>"; };
 		835C96168DA6A4B8FB2C36E631C4B9C2 /* Pods-PaymaxSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PaymaxSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		83A9F30A8A216E47E9882F1A26018A2D /* Button_充值_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_充值_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_充值_solid@2x.png"; sourceTree = "<group>"; };
 		8493A2829DD52D2E472AB22B5BA985B8 /* Pods-PaymaxSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymaxSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		84E1B3A860149AC8369EE859D5009C51 /* 支付失败@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "支付失败@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/支付失败@3x.png"; sourceTree = "<group>"; };
+		84ECDAED39FBE7CF5CDAD4677ED7C61D /* Button_删除_line_32px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_删除_line_32px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_删除_line_32px@2x.png"; sourceTree = "<group>"; };
+		859F066D767D2D4115128E2DAB1DE468 /* Button_信用卡还款_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_信用卡还款_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_信用卡还款_Circle@2x.png"; sourceTree = "<group>"; };
+		85EECC16C039CF4D39D2D2C3A86A5008 /* choice2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "choice2@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/choice2@3x.png"; sourceTree = "<group>"; };
+		8765CF84220DD9EEB2F55E3D6E6AD89D /* tjyhk_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tjyhk_icon@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tjyhk_icon@3x.png"; sourceTree = "<group>"; };
+		880A1C82C36E9B5AD7C64DE7C8326F47 /* Button_提现_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_提现_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_提现_solid@2x.png"; sourceTree = "<group>"; };
+		8C2E43D8443655C4055E3BBAF1A39119 /* Button_账单_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_账单_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_账单_solid@2x.png"; sourceTree = "<group>"; };
+		8C518BDD34F798AF55EBACCA99EBD449 /* libPaymaxSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymaxSDK.a; path = PaymaxSDK/libPaymaxSDK.a; sourceTree = "<group>"; };
 		911FE942CA4B60F49E5E3CC876C116C3 /* Pods-PaymaxSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymaxSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		920323CC1A949BDA0BF44F96283A444F /* Pods_PaymaxSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaymaxSDK_Tests.framework; path = "Pods-PaymaxSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977B28C41058A6904A662F32BD590D76 /* 未选@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "未选@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/未选@2x.png"; sourceTree = "<group>"; };
+		99CB77178CE7C2432F48BF6C48392B19 /* button_jb_line_s@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "button_jb_line_s@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/button_jb_line_s@3x.png"; sourceTree = "<group>"; };
+		9DA030084EF3C9DE513E7720F68200DD /* Image_账单详情半圆_左.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Image_账单详情半圆_左.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Image_账单详情半圆_左.png"; sourceTree = "<group>"; };
+		A1173B89BE4F50E7CF7A93770130B18F /* Button_输入框两栏580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入框两栏580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入框两栏580px.png"; sourceTree = "<group>"; };
+		A1F6BFBAF599CB818E9FE7A65C2CB98D /* Button_设置_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_设置_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_设置_solid@2x.png"; sourceTree = "<group>"; };
 		A2448595E056F97438C30590A2F27F58 /* Pods-PaymaxSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaymaxSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		A90663EA7EE3BCF19C1805DDD059685D /* lklloadingview_circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lklloadingview_circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/lklloadingview_circle@3x.png"; sourceTree = "<group>"; };
+		ABAD1BF19E0426535B5AD97E4C147750 /* tck_yeqb_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tck_yeqb_icon@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tck_yeqb_icon@2x.png"; sourceTree = "<group>"; };
+		AE82C853C0CF404703D9FCC5BDA0D831 /* Cover_iPhone5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Cover_iPhone5.png; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Cover_iPhone5.png"; sourceTree = "<group>"; };
+		B23A7EE80C40A116C58A878A9E3987B6 /* PaymaxSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PaymaxSDK.h; path = PaymaxSDK/PaymaxSDK.h; sourceTree = "<group>"; };
+		B29BF029BDA1C40DE3799793EEA53E1C /* lklloadingview_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lklloadingview_logo@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/lklloadingview_logo@3x.png"; sourceTree = "<group>"; };
+		B4947177FC892ACEDB7D67C0862D8D23 /* Button_信用卡还款_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_信用卡还款_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_信用卡还款_Circle@3x.png"; sourceTree = "<group>"; };
+		B4F385D52C3C16A26A293F1B7290A779 /* Button_提现_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_提现_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_提现_line@2x.png"; sourceTree = "<group>"; };
+		B6CF55C320140B3A41848E84DD2CEB62 /* Button_关于_line_32px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_关于_line_32px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_关于_line_32px@2x.png"; sourceTree = "<group>"; };
+		B70BEB3CF7429407724F7A089746BEA4 /* lklloadingview_circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lklloadingview_circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/lklloadingview_circle@2x.png"; sourceTree = "<group>"; };
+		B81EAA53A5438A3D8030361F0B4D6E7B /* Button_头像_110px@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_头像_110px@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_头像_110px@2x.png"; sourceTree = "<group>"; };
+		B83D97D264B458306431249A57A100E5 /* tck_yeqb_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tck_yeqb_icon@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tck_yeqb_icon@3x.png"; sourceTree = "<group>"; };
 		B9DABF6CC50791A6C15341752CB0AB18 /* Pods-PaymaxSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymaxSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		BBC42519355E8AF2D19025FE4A621EA2 /* Bar_首页顶部导航条.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bar_首页顶部导航条.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Bar_首页顶部导航条.png"; sourceTree = "<group>"; };
+		BFFE7C6EF1066875B9C706DC30D8B1C9 /* Button_确认框580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_确认框580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_确认框580px.png"; sourceTree = "<group>"; };
+		C0988F745637336F3F69C6A34FFBEF52 /* ResourceBundle-lklImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-lklImage-Info.plist"; sourceTree = "<group>"; };
+		C1683746FECB05B6AC59EBAF211D1990 /* lklloadingview_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lklloadingview_logo@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/lklloadingview_logo@2x.png"; sourceTree = "<group>"; };
 		C2D6F4D50CC14EE3BF3512CE047B8E30 /* Pods-PaymaxSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaymaxSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C53692AFE45D469FE362A04892CDF254 /* 支付失败@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "支付失败@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/支付失败@2x.png"; sourceTree = "<group>"; };
+		C83D87F223424556D4D5C2635A172370 /* Button_消费_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_消费_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_消费_line@2x.png"; sourceTree = "<group>"; };
 		C859FE51E8BAB8264C10F4DF7E94F3C8 /* Pods-PaymaxSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaymaxSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		C99DA8EE65D59A56140431D8576064AA /* Pods-PaymaxSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymaxSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		CF21A9777F12D7311A83D903F2C1DDAA /* libPaymaxWx.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymaxWx.a; path = "PaymaxSDK/Paymax+wx/libPaymaxWx.a"; sourceTree = "<group>"; };
+		D0FB93C94004010B428B04C6422FC35D /* jt_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jt_btn@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/jt_btn@3x.png"; sourceTree = "<group>"; };
+		D1F3FCDCB2629CB4D90E724600371894 /* Button_理财推荐_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_理财推荐_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_理财推荐_Circle@2x.png"; sourceTree = "<group>"; };
+		D5A494312943A657F4CC0D58BB7CFFD8 /* Bar_导航条.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bar_导航条.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Bar_导航条.png"; sourceTree = "<group>"; };
+		D6E3323FB2C41A12719C60A1E4495046 /* button_jb_line_s@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "button_jb_line_s@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/button_jb_line_s@2x.png"; sourceTree = "<group>"; };
+		DA8ED74B644A8726F5F919C5DCEF8937 /* Button_80px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Button_80px.png; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_80px.png"; sourceTree = "<group>"; };
+		DBC8129B63F991BEE658C53BB28B0738 /* Layer_银行卡类型580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Layer_银行卡类型580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Layer_银行卡类型580px.png"; sourceTree = "<group>"; };
+		DCC15388C81083EF0C69BFD5EE1692CF /* Button_待办_solid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_待办_solid@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_待办_solid@2x.png"; sourceTree = "<group>"; };
+		DE1707B393D6A62FF6F72D8B41EF1C6A /* 支付成功@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "支付成功@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/支付成功@3x.png"; sourceTree = "<group>"; };
+		DE576B50D2DB60504A3B6EF6D541FDE4 /* choice_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "choice_icon@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/choice_icon@2x.png"; sourceTree = "<group>"; };
+		DF91B5F7362C3FBEB2A77E15D6A7CD15 /* 未点击@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "未点击@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/未点击@3x.png"; sourceTree = "<group>"; };
+		E49C93BB55F4BD94D317B4030179A163 /* Button_流量充值_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_流量充值_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_流量充值_Circle@2x.png"; sourceTree = "<group>"; };
+		E5D1FAB3C00BEEBEDABD1400C2A573BB /* nochoice_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nochoice_icon@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/nochoice_icon@2x.png"; sourceTree = "<group>"; };
+		E61701FBD77CD0D7DAEC03082828A1BB /* Button_扫码登陆_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_扫码登陆_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_扫码登陆_Circle@3x.png"; sourceTree = "<group>"; };
+		E61A84555B065EB21FE5E57A9391EB9B /* 叹号@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "叹号@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/叹号@2x.png"; sourceTree = "<group>"; };
+		E984F4BBF878E7C0FF085C4D2A079D33 /* Button_收付款扫码_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_收付款扫码_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_收付款扫码_Circle@2x.png"; sourceTree = "<group>"; };
+		E9EA804F00481BF3E0D7E90B840819CB /* nochoice_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nochoice_icon@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/nochoice_icon@3x.png"; sourceTree = "<group>"; };
+		EBDE1A33F9F1FD7B1D5F9D545D8DCE29 /* 返回剪头@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "返回剪头@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/返回剪头@3x.png"; sourceTree = "<group>"; };
+		EC5E037C25D429B6C450BE38F1061EE7 /* Button_管家_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_管家_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_管家_line@2x.png"; sourceTree = "<group>"; };
+		ECB8B5D8272C5B2FD5F79B8843BD0880 /* Button_确认_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_确认_line@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_确认_line@2x.png"; sourceTree = "<group>"; };
+		ECDDF594512767EDE952EAE5B419CFBE /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
+		ED245D2575D8F4E0DDE9239C47C5500B /* tc_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tc_btn@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/tc_btn@2x.png"; sourceTree = "<group>"; };
+		F17BAEE882F86AB4BCD6A2F75BB02A7C /* Button_实名_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_实名_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_实名_Circle@2x.png"; sourceTree = "<group>"; };
+		F193643CDC071C40F4F4878176A67CF0 /* 对勾@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "对勾@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/对勾@2x.png"; sourceTree = "<group>"; };
+		F1A9255E23138A3AEF4D7586F4EEFCB3 /* Pods_PaymaxSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaymaxSDK_Example.framework; path = "Pods-PaymaxSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CF9B84B4D21CA7212D01A9165E48A8 /* Bar_导航条@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bar_导航条@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Bar_导航条@2x.png"; sourceTree = "<group>"; };
+		F607CFC13E3E33CBCBC991D6242923FB /* Button_扫码支付_Circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_扫码支付_Circle@3x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_扫码支付_Circle@3x.png"; sourceTree = "<group>"; };
+		F74D760BCE8FE993C3184415B7D1EB46 /* Button_添加银行卡.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_添加银行卡.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_添加银行卡.png"; sourceTree = "<group>"; };
+		F88784711311AA6F0ED25B206333C36A /* Button_输入框三栏580px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_输入框三栏580px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_输入框三栏580px.png"; sourceTree = "<group>"; };
+		F8D868DC696146899B953CD93DA23466 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		FC018E65F24D2D429C1E7B7468666A3A /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = "PaymaxSDK/Paymax+alipay/Alipay/AlipaySDK.framework"; sourceTree = "<group>"; };
+		FCFBAF002A62313C47C14DC4D3F1816B /* Button_重发按钮_等待220px.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_重发按钮_等待220px.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_重发按钮_等待220px.png"; sourceTree = "<group>"; };
+		FCFFDDD63F9AB6B364C17E3E4ABF7337 /* Button_充值_Circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Button_充值_Circle@2x.png"; path = "PaymaxSDK/Paymax+lkl/lkl/lklimages/Button_充值_Circle@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31EB417B410234F367BF2D9FC06CA041 /* Frameworks */ = {
+		5BF634BCD627B9A13E21D9637391237F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D708A95A67CF76306CB9BFCEBCD50313 /* Foundation.framework in Frameworks */,
+				8AED03EAB098D41F873B17BF75F8B34B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E371AD6FCF966F094C0F439B3793EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +355,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06237B2892E0D4BF542967B346B063D3 /* Products */ = {
+		3EAD9E97DB952E1C9CEBB5401BD02100 /* LklPay */ = {
 			isa = PBXGroup;
 			children = (
-				16FE3B6718698062D2C814B0E572D66F /* Pods_PaymaxSDK_Example.framework */,
-				3E2817568619202CE9F44D7D68671D68 /* Pods_PaymaxSDK_Tests.framework */,
+				EA41A5BB959A3AE2945178DA7D99326F /* Frameworks */,
+				DDDAFD6A05ABE79086B55069F5F62408 /* Resources */,
 			);
-			name = Products;
+			name = LklPay;
 			sourceTree = "<group>";
 		};
 		42AD10CCFF84B5A940C71A70B626DE8C /* Pods-PaymaxSDK_Tests */ = {
@@ -89,37 +382,152 @@
 			path = "Target Support Files/Pods-PaymaxSDK_Tests";
 			sourceTree = "<group>";
 		};
-		48D3FBE6BBE62188085C30D12A7F4E25 /* PaymaxSDK */ = {
+		59D3D0EDE92B0794B3EDF98E940B3F33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF21A9777F12D7311A83D903F2C1DDAA /* libPaymaxWx.a */,
+				6FC895646915E6162827DCD12762A680 /* libWeChatSDK.a */,
 			);
-			name = PaymaxSDK;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F919C7961BC05376494E4A273EAD0F9 /* Development Pods */ = {
+		652A81951C9993A7E2173A024D280714 /* Paymax+lkl */ = {
 			isa = PBXGroup;
 			children = (
-				48D3FBE6BBE62188085C30D12A7F4E25 /* PaymaxSDK */,
+				A214E780248FC202F00327AD604E34C4 /* lkl */,
 			);
-			name = "Development Pods";
+			name = "Paymax+lkl";
+			path = "PaymaxSDK/Paymax+lkl";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5F919C7961BC05376494E4A273EAD0F9 /* Development Pods */,
+				89AC3689D478B962D96C181A2F22C682 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				06237B2892E0D4BF542967B346B063D3 /* Products */,
+				EBCCA6E37392D8432E80C8C02DB1AE6C /* Products */,
 				F8E1E5E9647795CCB34342AA2854FE5A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		89AC3689D478B962D96C181A2F22C682 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A093AA905EF3290AAFDB71FCEE99DCC /* PaymaxSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8A093AA905EF3290AAFDB71FCEE99DCC /* PaymaxSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B23A7EE80C40A116C58A878A9E3987B6 /* PaymaxSDK.h */,
+				F4EC843DA81A4348AD190646DBC65497 /* Alipay */,
+				3EAD9E97DB952E1C9CEBB5401BD02100 /* LklPay */,
+				DC6017D83B19ADDD1B6BB8C4812BC9A4 /* Paymax */,
+				C5B84565D4BDF6FB13893770AC452B96 /* Paymax+alipay */,
+				652A81951C9993A7E2173A024D280714 /* Paymax+lkl */,
+				FD48699621654C2C0A31741054365472 /* Paymax+wx */,
+				CF5EF3A2496D56373ECEF146A9B514F7 /* Support Files */,
+				B2338A41545C378404F2B4AC5D47DC72 /* Wechat */,
+			);
+			name = PaymaxSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A31239F59FBC01BE213350D3C7BE4F1 /* AlipaySDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				AA00050743D33682F41E6A928DC909DD /* Headers */,
+			);
+			name = AlipaySDK.framework;
+			path = AlipaySDK.framework;
+			sourceTree = "<group>";
+		};
+		9AC33FB57468C28C99C48A6D86C38A5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38B85D58B8CCAE0E31CCFB187477AEED /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A214E780248FC202F00327AD604E34C4 /* lkl */ = {
+			isa = PBXGroup;
+			children = (
+				5F367B9DCFEFE16B783E728BA4E22BEF /* LKLPaySDK.h */,
+			);
+			name = lkl;
+			path = lkl;
+			sourceTree = "<group>";
+		};
+		AA00050743D33682F41E6A928DC909DD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				22339A9D58E7CD59B94DEE2963144E8A /* AlipaySDK.h */,
+				ECDDF594512767EDE952EAE5B419CFBE /* APayAuthInfo.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		AFC3525D7568BCB06C7F1DAC11D8EE55 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				9A31239F59FBC01BE213350D3C7BE4F1 /* AlipaySDK.framework */,
+			);
+			name = Alipay;
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		B2338A41545C378404F2B4AC5D47DC72 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				59D3D0EDE92B0794B3EDF98E940B3F33 /* Frameworks */,
+			);
+			name = Wechat;
+			sourceTree = "<group>";
+		};
+		B48406765BD562499BAD04241EACE46F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC018E65F24D2D429C1E7B7468666A3A /* AlipaySDK.framework */,
+				7BA91B638BC7524888A1878BF2ED9B40 /* libPaymaxAli.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5B84565D4BDF6FB13893770AC452B96 /* Paymax+alipay */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3525D7568BCB06C7F1DAC11D8EE55 /* Alipay */,
+			);
+			name = "Paymax+alipay";
+			path = "PaymaxSDK/Paymax+alipay";
+			sourceTree = "<group>";
+		};
+		CF5EF3A2496D56373ECEF146A9B514F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0988F745637336F3F69C6A34FFBEF52 /* ResourceBundle-lklImage-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PaymaxSDK";
+			sourceTree = "<group>";
+		};
+		D242B09B96A963E803C8FA509526EC5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C518BDD34F798AF55EBACCA99EBD449 /* libPaymaxSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +540,179 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DC6017D83B19ADDD1B6BB8C4812BC9A4 /* Paymax */ = {
+			isa = PBXGroup;
+			children = (
+				D242B09B96A963E803C8FA509526EC5F /* Frameworks */,
+			);
+			name = Paymax;
+			sourceTree = "<group>";
+		};
+		DDDAFD6A05ABE79086B55069F5F62408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5A494312943A657F4CC0D58BB7CFFD8 /* Bar_导航条.png */,
+				F5CF9B84B4D21CA7212D01A9165E48A8 /* Bar_导航条@2x.png */,
+				76A651D272070650BD9AE0A2E10E4F14 /* Bar_导航条@3x.png */,
+				61E228AEB44C818DF8242B13E08B5403 /* Bar_首页底部导航条.png */,
+				BBC42519355E8AF2D19025FE4A621EA2 /* Bar_首页顶部导航条.png */,
+				7ABBC04D000ACE827BB4BCB2D112B821 /* Bar_首页顶部导航条_选中.png */,
+				DA8ED74B644A8726F5F919C5DCEF8937 /* Button_80px.png */,
+				D6E3323FB2C41A12719C60A1E4495046 /* button_jb_line_s@2x.png */,
+				99CB77178CE7C2432F48BF6C48392B19 /* button_jb_line_s@3x.png */,
+				72F7BA85B65EFE602E9ECE9FE022D5A6 /* Button_交易状态.png */,
+				859F066D767D2D4115128E2DAB1DE468 /* Button_信用卡还款_Circle@2x.png */,
+				B4947177FC892ACEDB7D67C0862D8D23 /* Button_信用卡还款_Circle@3x.png */,
+				FCFFDDD63F9AB6B364C17E3E4ABF7337 /* Button_充值_Circle@2x.png */,
+				3A5E43DC48795B75F34E1A582C31E930 /* Button_充值_line@2x.png */,
+				6F6E05C74C888556255E9B3391FBBA31 /* Button_充值_line_white@2x.png */,
+				83A9F30A8A216E47E9882F1A26018A2D /* Button_充值_solid@2x.png */,
+				B6CF55C320140B3A41848E84DD2CEB62 /* Button_关于_line_32px@2x.png */,
+				84ECDAED39FBE7CF5CDAD4677ED7C61D /* Button_删除_line_32px@2x.png */,
+				51F09C72410FBB573C9FC01C7C8FCA64 /* Button_卡_line_32px@2x.png */,
+				B81EAA53A5438A3D8030361F0B4D6E7B /* Button_头像_110px@2x.png */,
+				4B16F846160E12087263A1EAF4D49EB3 /* Button_头像_80px@2x.png */,
+				F17BAEE882F86AB4BCD6A2F75BB02A7C /* Button_实名_Circle@2x.png */,
+				29723DA90D355483DDAF6E7D99CB97AC /* Button_密码_line_32px@2x.png */,
+				7E85678BF0F9ED75E795A74F392CFE02 /* Button_帮付宝_line@2x.png */,
+				461657E910CDEB7AAB73DE44A21CEE29 /* Button_帮付宝_solid@2x.png */,
+				7E5F3DDA7A7CE2900BE71253A99C05E0 /* Button_待办_Circle@2x.png */,
+				1EB224F5F72165B3D7930B6475823915 /* Button_待办_line@2x.png */,
+				DCC15388C81083EF0C69BFD5EE1692CF /* Button_待办_solid@2x.png */,
+				42F7BF4B03115F275A0A2A891BEE307C /* Button_手机_line_32px@2x.png */,
+				1B4128CE05E6DD36536039B75D299063 /* Button_手机充值_Circle@2x.png */,
+				6FB15BB1D51B3249188B723276E7EBF3 /* Button_手机充值_Circle@3x.png */,
+				752D346620ED33308B3742D1BC7A6473 /* Button_扫码支付_Circle@2x.png */,
+				F607CFC13E3E33CBCBC991D6242923FB /* Button_扫码支付_Circle@3x.png */,
+				23BF67DE329674C6994B320B7B5AE7F3 /* Button_扫码登陆_Circle@2x.png */,
+				E61701FBD77CD0D7DAEC03082828A1BB /* Button_扫码登陆_Circle@3x.png */,
+				45F02E62FD257408556D960A5E2E55D9 /* Button_提现_Circle@2x.png */,
+				B4F385D52C3C16A26A293F1B7290A779 /* Button_提现_line@2x.png */,
+				56769A7D260AF2758DDE711DB6C985BF /* Button_提现_line_white@2x.png */,
+				880A1C82C36E9B5AD7C64DE7C8326F47 /* Button_提现_solid@2x.png */,
+				E984F4BBF878E7C0FF085C4D2A079D33 /* Button_收付款扫码_Circle@2x.png */,
+				3F2C7D8441D576CDDF62A67C97A2F457 /* Button_收付款扫码_Circle@3x.png */,
+				E49C93BB55F4BD94D317B4030179A163 /* Button_流量充值_Circle@2x.png */,
+				02793ABDD6D80825FCCC08C3DEC60C5F /* Button_流量充值_Circle@3x.png */,
+				C83D87F223424556D4D5C2635A172370 /* Button_消费_line@2x.png */,
+				686A759CF74D3C02FEDF779E10A5D499 /* Button_消费_solid@2x.png */,
+				F74D760BCE8FE993C3184415B7D1EB46 /* Button_添加银行卡.png */,
+				2BCEEB3F98D5397B349DA95820518B1B /* Button_添加银行卡+.png */,
+				D1F3FCDCB2629CB4D90E724600371894 /* Button_理财推荐_Circle@2x.png */,
+				31706696FA129723AF3B95C77D09D101 /* Button_理财推荐_Circle@3x.png */,
+				ECB8B5D8272C5B2FD5F79B8843BD0880 /* Button_确认_line@2x.png */,
+				BFFE7C6EF1066875B9C706DC30D8B1C9 /* Button_确认框580px.png */,
+				EC5E037C25D429B6C450BE38F1061EE7 /* Button_管家_line@2x.png */,
+				76A6E0CB7B79CC6CC39453E861C0F22A /* Button_管家_solid@2x.png */,
+				33CF9B1CD7630270121A9554587A1013 /* Button_箭头@2x.png */,
+				4C0F33F1581C0D4766DAD01472B40587 /* Button_设置_line@2x.png */,
+				A1F6BFBAF599CB818E9FE7A65C2CB98D /* Button_设置_solid@2x.png */,
+				7B7459BD5B49EC858EBA4CFA260A76BB /* Button_账单_line@2x.png */,
+				8C2E43D8443655C4055E3BBAF1A39119 /* Button_账单_solid@2x.png */,
+				100AD94C2905E0D063983C082DE1B20A /* Button_账户_line_32px@2x.png */,
+				0365EA6488A4032B96A7A49F66C4D393 /* Button_转账_Circle@2x.png */,
+				76E6C8DCC667B9E7F8C518B0FDFF88E0 /* Button_转账_line@2x.png */,
+				2CA18F586E01108F0C12303F7E141018 /* Button_转账_line_white@2x.png */,
+				29EC87CDA1BB1EB8B67CC0B5CE96589B /* Button_转账_solid@2x.png */,
+				31B8F76B59223730BD9B73141A6C33D4 /* Button_输入支付密码_取消@2x.png */,
+				756C8747FB853C90C97A3D215B492572 /* Button_输入支付密码_确认@2x.png */,
+				0ABA21B2052DFA0BDCAE91D9F361680C /* Button_输入框330px.png */,
+				05D9539B47A9034E9CC34BFBD32B05E0 /* Button_输入框580px.png */,
+				F88784711311AA6F0ED25B206333C36A /* Button_输入框三栏580px.png */,
+				A1173B89BE4F50E7CF7A93770130B18F /* Button_输入框两栏580px.png */,
+				149384A1F1FEEB8D6F473763D3325398 /* Button_输入框四栏580px.png */,
+				51B990A2754758A0C90A93C282BFE6C6 /* Button_返回@2x.png */,
+				730E0F8820B07052427E006E71BA5B09 /* Button_通讯录_line@2x.png */,
+				72DD0DB7AB42A459270AF8A292B8EC11 /* Button_重发按钮_220px.png */,
+				FCFBAF002A62313C47C14DC4D3F1816B /* Button_重发按钮_等待220px.png */,
+				5FB219BAD61DAE1CA570CF9BA457D521 /* Button_银行卡_line@2x.png */,
+				0D365B031903BC90BD6AF8371A4A038A /* Button_银行卡_Solid@2x.png */,
+				233BFCF789CB9F1FA8846FFCC9B2164F /* choice2@2x.png */,
+				85EECC16C039CF4D39D2D2C3A86A5008 /* choice2@3x.png */,
+				DE576B50D2DB60504A3B6EF6D541FDE4 /* choice_icon@2x.png */,
+				55F8744616FA465AE894AF3742E3EBD7 /* choice_icon@3x.png */,
+				AE82C853C0CF404703D9FCC5BDA0D831 /* Cover_iPhone5.png */,
+				1EB68C70C379F2BC339F095F092A7B11 /* Image_Cover字.png */,
+				50D48D0912261D4A47D71D12C3E23027 /* Image_帮付宝首页.png */,
+				460874D4697369F55048C3B2C9C5ECFF /* Image_空页面.png */,
+				53FD89757F4040839C249FB384EA999A /* Image_管家首页.png */,
+				31591C4B87B942963CA867AA29186D73 /* Image_账单详情半圆_右.png */,
+				9DA030084EF3C9DE513E7720F68200DD /* Image_账单详情半圆_左.png */,
+				20A884913503E16D3A7EAC71897312CB /* jt_btn@2x.png */,
+				D0FB93C94004010B428B04C6422FC35D /* jt_btn@3x.png */,
+				748A88B1AE6602D7C8148DC5BA904DA8 /* Layer_修改密码成功580px.png */,
+				7489A1B9FE46E4C9549F2FF392C28426 /* Layer_输入支付密码580px@2x.png */,
+				DBC8129B63F991BEE658C53BB28B0738 /* Layer_银行卡类型580px.png */,
+				B70BEB3CF7429407724F7A089746BEA4 /* lklloadingview_circle@2x.png */,
+				A90663EA7EE3BCF19C1805DDD059685D /* lklloadingview_circle@3x.png */,
+				C1683746FECB05B6AC59EBAF211D1990 /* lklloadingview_logo@2x.png */,
+				B29BF029BDA1C40DE3799793EEA53E1C /* lklloadingview_logo@3x.png */,
+				51D8F14E2C9A208F5B1B0B5F1A659A2C /* mrlogo_btn@2x.png */,
+				64AB3B4157F67556ACE28F7DE0157A50 /* mrlogo_btn@3x.png */,
+				E5D1FAB3C00BEEBEDABD1400C2A573BB /* nochoice_icon@2x.png */,
+				E9EA804F00481BF3E0D7E90B840819CB /* nochoice_icon@3x.png */,
+				1B5B00D76AFEA4A909047C8B5D327A8A /* qbye_btn@2x.png */,
+				689655AA15DA610654ACD515A843F25C /* qbye_btn@3x.png */,
+				ED245D2575D8F4E0DDE9239C47C5500B /* tc_btn@2x.png */,
+				7E0DADF5750C8F1114E5368F5722CCB7 /* tc_btn@3x.png */,
+				0100A9A223B7D808405420F00ED24150 /* tck_qx_icon@2x.png */,
+				09AD21DC2B2DEACAA673B96074A69029 /* tck_qx_icon@3x.png */,
+				ABAD1BF19E0426535B5AD97E4C147750 /* tck_yeqb_icon@2x.png */,
+				B83D97D264B458306431249A57A100E5 /* tck_yeqb_icon@3x.png */,
+				7872D6958D273323E4CFF174DF611EB7 /* tjyhk_icon@2x.png */,
+				8765CF84220DD9EEB2F55E3D6E6AD89D /* tjyhk_icon@3x.png */,
+				2792ECB0123D30D7C94F72AA801AD2E0 /* unchoice@2x.png */,
+				7E5250EB87BA101F82E3AFDFF04DA6AF /* unchoice@3x.png */,
+				E61A84555B065EB21FE5E57A9391EB9B /* 叹号@2x.png */,
+				3610D7A57FD8DF22682623EB3D9ED207 /* 叹号@3x.png */,
+				F193643CDC071C40F4F4878176A67CF0 /* 对勾@2x.png */,
+				45D1694A6EA3C21C865DEEA366FC9AA3 /* 对勾@3x.png */,
+				C53692AFE45D469FE362A04892CDF254 /* 支付失败@2x.png */,
+				84E1B3A860149AC8369EE859D5009C51 /* 支付失败@3x.png */,
+				32035CECDB483641200D724A11C3624D /* 支付成功@2x.png */,
+				DE1707B393D6A62FF6F72D8B41EF1C6A /* 支付成功@3x.png */,
+				430FEE66C3C9B4414373B82B88873E66 /* 未点击@2x.png */,
+				DF91B5F7362C3FBEB2A77E15D6A7CD15 /* 未点击@3x.png */,
+				977B28C41058A6904A662F32BD590D76 /* 未选@2x.png */,
+				0F71EB787510C78C7CAE87B4748F14F6 /* 未选@3x.png */,
+				4CB2F2532CD096787C5586893D402770 /* 点击@2x.png */,
+				450AC0B755FDB104582A0AA26FF46D2F /* 点击@3x.png */,
+				076AD4954E8ACE8FF93E7734DD173806 /* 箭头@2x.png */,
+				7AFA3BB4EF930CC093A3708D545CEBD9 /* 箭头@3x.png */,
+				434F271E29E2B70589212337FBEE80D7 /* 返回剪头@2x.png */,
+				EBDE1A33F9F1FD7B1D5F9D545D8DCE29 /* 返回剪头@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA41A5BB959A3AE2945178DA7D99326F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4928A392C8619A1D14824248246B8A27 /* libLKLPaySDK.a */,
+				7C0BD2FE447C4BBCEFF49E09AEFEBB68 /* libPaymaxLkl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCCA6E37392D8432E80C8C02DB1AE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				117596371B79A63F796E6FAD0E8F132C /* lklImage.bundle */,
+				F1A9255E23138A3AEF4D7586F4EEFCB3 /* Pods_PaymaxSDK_Example.framework */,
+				920323CC1A949BDA0BF44F96283A444F /* Pods_PaymaxSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EC843DA81A4348AD190646DBC65497 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				B48406765BD562499BAD04241EACE46F /* Frameworks */,
+				9AC33FB57468C28C99C48A6D86C38A5C /* Resources */,
+			);
+			name = Alipay;
+			sourceTree = "<group>";
+		};
 		F8E1E5E9647795CCB34342AA2854FE5A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +720,15 @@
 				42AD10CCFF84B5A940C71A70B626DE8C /* Pods-PaymaxSDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD48699621654C2C0A31741054365472 /* Paymax+wx */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2FCD339EA8237E2AE5485B4FCF6C1 /* WX */,
+			);
+			name = "Paymax+wx";
+			path = "PaymaxSDK/Paymax+wx";
 			sourceTree = "<group>";
 		};
 		FD62958E211F5472E27EFBA0EA00CC6F /* Pods-PaymaxSDK_Example */ = {
@@ -159,17 +749,19 @@
 			path = "Target Support Files/Pods-PaymaxSDK_Example";
 			sourceTree = "<group>";
 		};
+		FFE2FCD339EA8237E2AE5485B4FCF6C1 /* WX */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4A2ECAB19D4A4F2CF36A2378BE0AE /* WXApi.h */,
+				F8D868DC696146899B953CD93DA23466 /* WXApiObject.h */,
+			);
+			name = WX;
+			path = WX;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		82D40B8D8EFD551E67D1F5CF7DDDF60D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				457A9F4E616C8765CF9F6E5726FAD009 /* Pods-PaymaxSDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A71C40D82AC67F6DA7938A72BBCF5526 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,25 +770,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE352AD44C024CB8DE8157A38E1ADAF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A53B3E8816CB16C7FCBFD86821495 /* Pods-PaymaxSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B976F214CC7AEAD2BA543DEF8606535 /* Pods-PaymaxSDK_Example */ = {
+		C77DF8578E82F11EA19B663D6ADBA117 /* PaymaxSDK-lklImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C5DF1F4007D090B36E396DB12777BE0 /* Build configuration list for PBXNativeTarget "Pods-PaymaxSDK_Example" */;
+			buildConfigurationList = 3537857F12CB0EADA8B4E774D4357D78 /* Build configuration list for PBXNativeTarget "PaymaxSDK-lklImage" */;
 			buildPhases = (
-				0D773CD03409F32078BDB7BCC1AB3941 /* Sources */,
-				31EB417B410234F367BF2D9FC06CA041 /* Frameworks */,
-				82D40B8D8EFD551E67D1F5CF7DDDF60D /* Headers */,
+				E1F219EA699345BAAE18341531E81777 /* Sources */,
+				6E371AD6FCF966F094C0F439B3793EFE /* Frameworks */,
+				8F2DB79A68D6745C85DDED7C8C38B39D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-PaymaxSDK_Example";
-			productName = "Pods-PaymaxSDK_Example";
-			productReference = 16FE3B6718698062D2C814B0E572D66F /* Pods_PaymaxSDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "PaymaxSDK-lklImage";
+			productName = "PaymaxSDK-lklImage";
+			productReference = 117596371B79A63F796E6FAD0E8F132C /* lklImage.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		D54A2ADEF43C11E258A0EC9A5FC4AE0C /* Pods-PaymaxSDK_Tests */ = {
 			isa = PBXNativeTarget;
@@ -212,7 +812,25 @@
 			);
 			name = "Pods-PaymaxSDK_Tests";
 			productName = "Pods-PaymaxSDK_Tests";
-			productReference = 3E2817568619202CE9F44D7D68671D68 /* Pods_PaymaxSDK_Tests.framework */;
+			productReference = 920323CC1A949BDA0BF44F96283A444F /* Pods_PaymaxSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFE083F8B68149B58607F55CD40AF70E /* Pods-PaymaxSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C8D348D0FF5D726B4C843572306246 /* Build configuration list for PBXNativeTarget "Pods-PaymaxSDK_Example" */;
+			buildPhases = (
+				6FC8DC8499E6CEE61C78C7BF9D3BCA25 /* Sources */,
+				5BF634BCD627B9A13E21D9637391237F /* Frameworks */,
+				AE352AD44C024CB8DE8157A38E1ADAF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F09C136662BDA58D19D5F72E0C347D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PaymaxSDK_Example";
+			productName = "Pods-PaymaxSDK_Example";
+			productReference = F1A9255E23138A3AEF4D7586F4EEFCB3 /* Pods_PaymaxSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -232,22 +850,163 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 06237B2892E0D4BF542967B346B063D3 /* Products */;
+			productRefGroup = EBCCA6E37392D8432E80C8C02DB1AE6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B976F214CC7AEAD2BA543DEF8606535 /* Pods-PaymaxSDK_Example */,
+				C77DF8578E82F11EA19B663D6ADBA117 /* PaymaxSDK-lklImage */,
+				DFE083F8B68149B58607F55CD40AF70E /* Pods-PaymaxSDK_Example */,
 				D54A2ADEF43C11E258A0EC9A5FC4AE0C /* Pods-PaymaxSDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8F2DB79A68D6745C85DDED7C8C38B39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60873720A8FF5AECD4445573D73CA879 /* Bar_导航条.png in Resources */,
+				AB28717A8B0D03E3405B1CCBE80BC689 /* Bar_导航条@2x.png in Resources */,
+				E4E8D3684DB9FB72102AC3420B9C83A8 /* Bar_导航条@3x.png in Resources */,
+				0E0F81D137A48629A9C262821DE21936 /* Bar_首页底部导航条.png in Resources */,
+				224763744280CF4A5D8BC862BC111030 /* Bar_首页顶部导航条.png in Resources */,
+				712D032F0A2B9A1AC7814C77429EEF4B /* Bar_首页顶部导航条_选中.png in Resources */,
+				B021424683EC6209A3533CAFBEAFCACC /* Button_80px.png in Resources */,
+				7F16D8AFED7A14C3A658E67ECF99C1B5 /* button_jb_line_s@2x.png in Resources */,
+				D86ABC92042CC2197586623A94B3E678 /* button_jb_line_s@3x.png in Resources */,
+				ED3CF7B2132A21868C070CD8198BFDE7 /* Button_交易状态.png in Resources */,
+				E9BBA6A3B269DED5CBB979FC63CDECB4 /* Button_信用卡还款_Circle@2x.png in Resources */,
+				E896FEAA00B1FD29A05680A12641379D /* Button_信用卡还款_Circle@3x.png in Resources */,
+				04EA32A9EFBDB539B0D4396215DECC12 /* Button_充值_Circle@2x.png in Resources */,
+				1D51ABD10DC5506E36873FD3D86D663C /* Button_充值_line@2x.png in Resources */,
+				9EB27A846952628D0B9285F0B2D07206 /* Button_充值_line_white@2x.png in Resources */,
+				8736C0AEEADFBDB26738C7E97A473A3A /* Button_充值_solid@2x.png in Resources */,
+				74C2721C0DC7C46848976EC8D8FE493F /* Button_关于_line_32px@2x.png in Resources */,
+				B36BBA20576796154D5541589F3C40B5 /* Button_删除_line_32px@2x.png in Resources */,
+				0CF8EB257C39227CFA67C65EC7FA531C /* Button_卡_line_32px@2x.png in Resources */,
+				66593950A989BFF9440AFD688F47C7F8 /* Button_头像_110px@2x.png in Resources */,
+				71F6637B5348802220FDE1AC60972C30 /* Button_头像_80px@2x.png in Resources */,
+				318F2AC10E28DB582E85244998F76E74 /* Button_实名_Circle@2x.png in Resources */,
+				0A48AF3EF4BE9BE11872E211E925E937 /* Button_密码_line_32px@2x.png in Resources */,
+				DBB0C802653D69A2D2542C52C7426C41 /* Button_帮付宝_line@2x.png in Resources */,
+				0427D8ED34FAD3C31CCA1188C6AC8895 /* Button_帮付宝_solid@2x.png in Resources */,
+				9D35D6D75341F03C7243C66F14615338 /* Button_待办_Circle@2x.png in Resources */,
+				B9CAC3BCAE653ED47C3D0AEAFD2AC685 /* Button_待办_line@2x.png in Resources */,
+				8D6DB00E01996B23FDC316A4544BDA89 /* Button_待办_solid@2x.png in Resources */,
+				C1367329E378F0B1F96BC8D918CF300D /* Button_手机_line_32px@2x.png in Resources */,
+				0FEB634095170A20653A68C8304D4868 /* Button_手机充值_Circle@2x.png in Resources */,
+				1D38B3EBE242501759850F3088D0C57A /* Button_手机充值_Circle@3x.png in Resources */,
+				570537D5298C540A845AA29D522D92AF /* Button_扫码支付_Circle@2x.png in Resources */,
+				FBD3BDD3527C03F983BCC10823814BA0 /* Button_扫码支付_Circle@3x.png in Resources */,
+				FC23F487FA79BFE22EE41B7DC2191D3D /* Button_扫码登陆_Circle@2x.png in Resources */,
+				52A7E780FCCA1E9A3AA4BC01E86C4BDD /* Button_扫码登陆_Circle@3x.png in Resources */,
+				D2CA4FD3B575AD6D53EEDBD017F4D2D3 /* Button_提现_Circle@2x.png in Resources */,
+				088F5BAC5607E4EE82128D46C7C9F213 /* Button_提现_line@2x.png in Resources */,
+				99AC0281FD5C93BF10E1E22423C797C8 /* Button_提现_line_white@2x.png in Resources */,
+				DA9B203AA3673C435909EDD963A8F711 /* Button_提现_solid@2x.png in Resources */,
+				C587A2B9EA18ED74D16413CF1FBEEABD /* Button_收付款扫码_Circle@2x.png in Resources */,
+				4DF2696D815BA58D36F257AD31651545 /* Button_收付款扫码_Circle@3x.png in Resources */,
+				43DBB2CB452C23BD0F14EAF2896B0782 /* Button_流量充值_Circle@2x.png in Resources */,
+				84D580099AE26B6AF4C89D7C48E34ABB /* Button_流量充值_Circle@3x.png in Resources */,
+				A73B5A59E43090A39D8C28ECBDC7BFC3 /* Button_消费_line@2x.png in Resources */,
+				ECD3CDEC227063D1E7204D54B0AF8C69 /* Button_消费_solid@2x.png in Resources */,
+				B2580E34B9A68F6336685F8E52C6E407 /* Button_添加银行卡+.png in Resources */,
+				A053BE7263FBEA3B3EC07C829B7304E7 /* Button_添加银行卡.png in Resources */,
+				BA893130C1794D43354FC228D5C5191D /* Button_理财推荐_Circle@2x.png in Resources */,
+				0421D733DFF9B35C5541578C12FA8F9A /* Button_理财推荐_Circle@3x.png in Resources */,
+				0EB464AD179A224A5FA2CD76383EF110 /* Button_确认_line@2x.png in Resources */,
+				508692D3A49725B7BCD02894C83637EB /* Button_确认框580px.png in Resources */,
+				BC29F937C27BC26F80B1B0DC42143CB3 /* Button_管家_line@2x.png in Resources */,
+				19399CA91B55B78251399E9EA4B77209 /* Button_管家_solid@2x.png in Resources */,
+				DAC175BF1113A1A84326A8D75CFFB7C1 /* Button_箭头@2x.png in Resources */,
+				399497540D91A9AB4D2B8434C7D91CA7 /* Button_设置_line@2x.png in Resources */,
+				12B9AE092AE9A6985DA5315D39233E7E /* Button_设置_solid@2x.png in Resources */,
+				8A197D8898794548FA1AD854D50A5D27 /* Button_账单_line@2x.png in Resources */,
+				F1AD436616A8672F10F7E775A2732EC4 /* Button_账单_solid@2x.png in Resources */,
+				D8C9AAC01F851ECD0F5981335AE4AE2B /* Button_账户_line_32px@2x.png in Resources */,
+				BB880746BE3BE2EEF83ED43A12081BB9 /* Button_转账_Circle@2x.png in Resources */,
+				A6199343C51816BBA91BB67C44A7B29F /* Button_转账_line@2x.png in Resources */,
+				59195FFD67A008317DD3D952ED7FA8A5 /* Button_转账_line_white@2x.png in Resources */,
+				D4AC759179DC50DC5F779BCFED2766C2 /* Button_转账_solid@2x.png in Resources */,
+				DE30AA353E6CEE2D2656201E90F69EFE /* Button_输入支付密码_取消@2x.png in Resources */,
+				0438723B99ADC9DDC6DA8CE69D0C0EEA /* Button_输入支付密码_确认@2x.png in Resources */,
+				79C7ABCFFAF2D00E530D002616CAAD99 /* Button_输入框330px.png in Resources */,
+				C4FE65FE21FD4A2B6AFCF0EE4FA9EF16 /* Button_输入框580px.png in Resources */,
+				A2BF4BFB8B66709CC4943206F7FBA8A5 /* Button_输入框三栏580px.png in Resources */,
+				57EDE7E9D3855DA012B5A35B2A9A06E2 /* Button_输入框两栏580px.png in Resources */,
+				83E801CC1AFE5F3569C9D4AFFE57D24F /* Button_输入框四栏580px.png in Resources */,
+				FC000F499BC7F08B175AD8CD7A036C84 /* Button_返回@2x.png in Resources */,
+				474D1C8FF94A92B43B31C893A5E0F331 /* Button_通讯录_line@2x.png in Resources */,
+				434B1A755620C62B7CEA4B9FEBB1E0F3 /* Button_重发按钮_220px.png in Resources */,
+				59A4D6D4F60EECAECF45C14C8325870B /* Button_重发按钮_等待220px.png in Resources */,
+				74C1877500820512608FAB53C0284511 /* Button_银行卡_line@2x.png in Resources */,
+				9FEE0D12D2DA0727B8068DA81AD1250A /* Button_银行卡_Solid@2x.png in Resources */,
+				42A15BC9BDFB1D0145BCF3195806B2B0 /* choice2@2x.png in Resources */,
+				BF76AB874374F04FBDD078633B4FCD38 /* choice2@3x.png in Resources */,
+				73F32354B7C2BB713A625E039952D7ED /* choice_icon@2x.png in Resources */,
+				9C33906D64DF359878BEB2DA0148A8A7 /* choice_icon@3x.png in Resources */,
+				3528C10E7CFFB64EEE70EF68F45CD6CB /* Cover_iPhone5.png in Resources */,
+				5DD1DD16B21EEDEFDBE48E9EE970DE6D /* Image_Cover字.png in Resources */,
+				5AE4193B909AE54308005E44C7F1E855 /* Image_帮付宝首页.png in Resources */,
+				5A7B3E22C9ABE240DF1C6B577985C510 /* Image_空页面.png in Resources */,
+				E03FFB67D58F2580BB502CD9C667C719 /* Image_管家首页.png in Resources */,
+				F5D9DAB3CD798DF06574687A5710F5AB /* Image_账单详情半圆_右.png in Resources */,
+				EC36DC3B69CF912AED42AE20DA93D01A /* Image_账单详情半圆_左.png in Resources */,
+				19857EB99C8CCD83CFBF7B146FE8ACBA /* jt_btn@2x.png in Resources */,
+				114D479A37F7522C8EA47F84AC3D9ED5 /* jt_btn@3x.png in Resources */,
+				A8BC482152163BB19E966A1019205777 /* Layer_修改密码成功580px.png in Resources */,
+				F85A898467615325BBE86F383B6D1903 /* Layer_输入支付密码580px@2x.png in Resources */,
+				6A37329E3994601D9C65498A697ED87C /* Layer_银行卡类型580px.png in Resources */,
+				C3FEE414CC489C8CE1DD892A3CBAA697 /* lklloadingview_circle@2x.png in Resources */,
+				A2EC64144830F7878897F6EE4E3A2301 /* lklloadingview_circle@3x.png in Resources */,
+				3E07DB4479190E3E1E3A6CFBDBDF3290 /* lklloadingview_logo@2x.png in Resources */,
+				C136FBF60693E91751284626CF72A16E /* lklloadingview_logo@3x.png in Resources */,
+				05EEF6CA6C02E8BC32FA5211188191E2 /* mrlogo_btn@2x.png in Resources */,
+				827626391B1B0E2534518651DD23EEE6 /* mrlogo_btn@3x.png in Resources */,
+				A25B1C86A84B6A30706F9BD3628991EA /* nochoice_icon@2x.png in Resources */,
+				2E68EBEEF18EB583E5567A185DF925A1 /* nochoice_icon@3x.png in Resources */,
+				632EE030333D1F8D9EDED8EA423350AE /* qbye_btn@2x.png in Resources */,
+				09B21B8B2AF38F4738ABA3CE11D860D7 /* qbye_btn@3x.png in Resources */,
+				08FC07DE82A9F30260318EC9422CFBEB /* tc_btn@2x.png in Resources */,
+				37AF0A2022C61BFF5DC7DAE397BD7391 /* tc_btn@3x.png in Resources */,
+				9A7D353F92BA2A5D4D526376A157DFCB /* tck_qx_icon@2x.png in Resources */,
+				DCC120CC6CB314714FF32D4B810644F1 /* tck_qx_icon@3x.png in Resources */,
+				A3BA417FDF4E1B8CFAF6B5AE8B43F4B9 /* tck_yeqb_icon@2x.png in Resources */,
+				E228F699876C7D2E55ABA54B616A422F /* tck_yeqb_icon@3x.png in Resources */,
+				AE514B02D96AE7154B6DF712243F3EBB /* tjyhk_icon@2x.png in Resources */,
+				FFAF6E2668A6627F212F32C7AE375183 /* tjyhk_icon@3x.png in Resources */,
+				D6C20D36EE93534D829DF9B2D7160584 /* unchoice@2x.png in Resources */,
+				8A64F30027C217C8AB9E742D5E638912 /* unchoice@3x.png in Resources */,
+				F845F5463741347AB60FFEEB45B448EF /* 叹号@2x.png in Resources */,
+				4881DB1A2BBD6A72D84E8E40DE765157 /* 叹号@3x.png in Resources */,
+				191CE3E2BCB34302881F4C42261CF395 /* 对勾@2x.png in Resources */,
+				5B2D33A941C00D0742259234B9193C3F /* 对勾@3x.png in Resources */,
+				2ED583D0932E7CD7840CA2A79587A3FA /* 支付失败@2x.png in Resources */,
+				160EF2C4102146082A42A1929B097A10 /* 支付失败@3x.png in Resources */,
+				E3057FF2C68C7A31741D9EFC5E8D73C0 /* 支付成功@2x.png in Resources */,
+				16191DFEE795C6F89A605C165B9FE02A /* 支付成功@3x.png in Resources */,
+				CED63DBB5BDB9B71F84090C3353D6361 /* 未点击@2x.png in Resources */,
+				E571D31A3CFC18D55F4CA55108B8852A /* 未点击@3x.png in Resources */,
+				898D62DF02163EFE0D2616F97EB03C2B /* 未选@2x.png in Resources */,
+				5B522B2D9C80D8239F9FB833AE0E6DFE /* 未选@3x.png in Resources */,
+				5FB930FA76116B21CC3344B906E1CCED /* 点击@2x.png in Resources */,
+				5178BA4858007C22BDB6B73BF6C47EE8 /* 点击@3x.png in Resources */,
+				90AB7C2569F1EC49D7935D8553127969 /* 箭头@2x.png in Resources */,
+				AD9CCB2885F3C5A9FAD81FD926C67501 /* 箭头@3x.png in Resources */,
+				EC96140B3DD028FD30C43A2AB79350A3 /* 返回剪头@2x.png in Resources */,
+				75B485DDC9D8DA1DA7B0E9D08251034E /* 返回剪头@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0D773CD03409F32078BDB7BCC1AB3941 /* Sources */ = {
+		6FC8DC8499E6CEE61C78C7BF9D3BCA25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63CD447A26A603EF6A9FF0C6D6F32659 /* Pods-PaymaxSDK_Example-dummy.m in Sources */,
+				FA76CF2ECC9AC632ECD6F1D72476911F /* Pods-PaymaxSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +1018,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1F219EA699345BAAE18341531E81777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6F09C136662BDA58D19D5F72E0C347D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PaymaxSDK-lklImage";
+			target = C77DF8578E82F11EA19B663D6ADBA117 /* PaymaxSDK-lklImage */;
+			targetProxy = 07D8F46E3B3F7E93BFB59CF28D9D63C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0B0629ABCA2D1FEF390D0C452CDC1227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911FE942CA4B60F49E5E3CC876C116C3 /* Pods-PaymaxSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Pods-PaymaxSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaymaxSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B3A59535A480EAFF6138D9A9C97CFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174585E2B1EBD0BBA7A0E8836A76057C /* Pods-PaymaxSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Pods-PaymaxSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaymaxSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D640AC7DBF43DD78FC41380A2840FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PaymaxSDK";
+				INFOPLIST_FILE = "Target Support Files/PaymaxSDK/ResourceBundle-lklImage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = lklImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		2869DBD13C16306157AB566DD150AA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A84CA0E4D5C5E4C4E7DEE02D7F7EED4 /* Pods-PaymaxSDK_Tests.debug.xcconfig */;
@@ -409,68 +1264,18 @@
 			};
 			name = Release;
 		};
-		7BBDF5A843DF63696474E3D4E2A28349 /* Release */ = {
+		927825958134AD496A560B81E2524FAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 174585E2B1EBD0BBA7A0E8836A76057C /* Pods-PaymaxSDK_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Pods-PaymaxSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PaymaxSDK_Example;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PaymaxSDK";
+				INFOPLIST_FILE = "Target Support Files/PaymaxSDK/ResourceBundle-lklImage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = lklImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A24C8D6893EA8169D66B76656A0FABC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 911FE942CA4B60F49E5E3CC876C116C3 /* Pods-PaymaxSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PaymaxSDK_Example/Pods-PaymaxSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PaymaxSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -519,11 +1324,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C5DF1F4007D090B36E396DB12777BE0 /* Build configuration list for PBXNativeTarget "Pods-PaymaxSDK_Example" */ = {
+		3537857F12CB0EADA8B4E774D4357D78 /* Build configuration list for PBXNativeTarget "PaymaxSDK-lklImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A24C8D6893EA8169D66B76656A0FABC2 /* Debug */,
-				7BBDF5A843DF63696474E3D4E2A28349 /* Release */,
+				927825958134AD496A560B81E2524FAE /* Debug */,
+				0D640AC7DBF43DD78FC41380A2840FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C8D348D0FF5D726B4C843572306246 /* Build configuration list for PBXNativeTarget "Pods-PaymaxSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0629ABCA2D1FEF390D0C452CDC1227 /* Debug */,
+				0B3A59535A480EAFF6138D9A9C97CFBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

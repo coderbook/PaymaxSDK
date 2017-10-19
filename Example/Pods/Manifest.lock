@@ -1,5 +1,16 @@
 PODS:
-  - PaymaxSDK (0.1.0)
+  - PaymaxSDK (0.1.0):
+    - PaymaxSDK/Alipay (= 0.1.0)
+    - PaymaxSDK/LklPay (= 0.1.0)
+    - PaymaxSDK/Paymax (= 0.1.0)
+    - PaymaxSDK/Wechat (= 0.1.0)
+  - PaymaxSDK/Alipay (0.1.0):
+    - PaymaxSDK/Paymax
+  - PaymaxSDK/LklPay (0.1.0):
+    - PaymaxSDK/Paymax
+  - PaymaxSDK/Paymax (0.1.0)
+  - PaymaxSDK/Wechat (0.1.0):
+    - PaymaxSDK/Paymax
 
 DEPENDENCIES:
   - PaymaxSDK (from `../`)
@@ -9,7 +20,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PaymaxSDK: e9b93cdc55429573dc3385673b1d7eadb1dbdaba
+  PaymaxSDK: b5198f4954e2e358a198d76ad7a7f380dda71476
 
 PODFILE CHECKSUM: 8dc5ab3d3c55fe6b00c053f24a0b08a553cc88eb
 

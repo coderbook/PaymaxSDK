@@ -53,7 +53,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="alipayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqa-3G-GJq"/>
+                                    <action selector="alipayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sY8-Wj-JfX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9W-V0-z4q">
